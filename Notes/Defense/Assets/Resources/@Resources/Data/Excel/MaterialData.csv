@@ -1,0 +1,13 @@
+﻿ID,Type,NameTextID,DescriptionTextID,Sprite
+50001,Gold,Gold,Gold,Gold_Icon
+50002,Dia,Dia,Dia,Dia_Icon
+50003,Stamina,Stamina,Stamina,Stamina_Icon
+50011,Weapon,Weapon Scroll,Weapon Scroll,Scroll_Weapon_Icon
+50012,Gloves,Gloves Scroll,Gloves Scroll,Scroll_Gloves_Icon
+50013,Ring,Ring Scroll,Ring Scroll,Scroll_Ring_Icon
+50014,Helmet,Helmet Scroll,Helmet Scroll,Scroll_Belt_Icon
+50015,Armor,Armor Scroll,Armor Scroll,Scroll_Armor_Icon
+50016,Boots,Boots Scroll,Boots Scroll,Scroll_Boots_Icon
+50021,BronzeKey,Bronze Key,Bronze Key,Key_Bronze_Icon
+50022,SilverKey,Silver Key,Silver Key,Key_Silver_Icon
+50023,GoldKey,Gold Key,Gold Key,Key_Gold_Icon

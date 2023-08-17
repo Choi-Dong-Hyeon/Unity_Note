@@ -1,0 +1,809 @@
+﻿ItemCode,GachaRarity,EquipmentType,Grade,NameTextID,DescriptionTextID,Sprite,Grade_Hp,Grade_UpHp,Grade_Atk,Grade_UpAtk,Grade_MaxLevel,UncommonGradeSkill,RareGradeSkill,EpicGradeSkill,LegendaryGradeSkill,MythGradeSkill
+NW0101,Normal,Weapon,Common,Hunter's bow,Hunter's bow,Weapon_01,0,0,13,3,10,10001,10002,10003,10004,10005
+NW0102,Normal,Weapon,Uncommon,Hunter's bow,Hunter's bow,Weapon_01,0,0,26,4,20,10001,10002,10003,10004,10005
+NW0103,Normal,Weapon,Rare,Hunter's bow,Hunter's bow,Weapon_01,0,0,39,5,30,10001,10002,10003,10004,10005
+NW0104,Normal,Weapon,Epic,Hunter's bow,Hunter's bow,Weapon_01,0,0,65,9,40,10001,10002,10003,10004,10005
+NW0105,Normal,Weapon,Epic1,Hunter's bow,Hunter's bow,Weapon_01,0,0,78,10,50,10001,10002,10003,10004,10005
+NW0106,Normal,Weapon,Epic2,Hunter's bow,Hunter's bow,Weapon_01,0,0,91,11,60,10001,10002,10003,10004,10005
+NW0107,Normal,Weapon,Legendary,Hunter's bow,Hunter's bow,Weapon_01,0,0,172,13,70,10001,10002,10003,10004,10005
+NW0108,Normal,Weapon,Legendary1,Hunter's bow,Hunter's bow,Weapon_01,0,0,200,15,80,10001,10002,10003,10004,10005
+NW0109,Normal,Weapon,Legendary2,Hunter's bow,Hunter's bow,Weapon_01,0,0,229,17,90,10001,10002,10003,10004,10005
+NW0110,Normal,Weapon,Legendary3,Hunter's bow,Hunter's bow,Weapon_01,0,0,257,19,100,10001,10002,10003,10004,10005
+NW0111,Normal,Weapon,Myth,Hunter's bow,Hunter's bow,Weapon_01,0,0,300,21,110,10001,10002,10003,10004,10005
+NW0112,Normal,Weapon,Myth1,Hunter's bow,Hunter's bow,Weapon_01,0,0,407,23,120,10001,10002,10003,10004,10005
+NW0113,Normal,Weapon,Myth2,Hunter's bow,Hunter's bow,Weapon_01,0,0,508,25,130,10001,10002,10003,10004,10005
+NW0114,Normal,Weapon,Myth3,Hunter's bow,Hunter's bow,Weapon_01,0,0,564,30,140,10001,10002,10003,10004,10005
+NW0201,Normal,Weapon,Common,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,13,3,10,10001,10002,10003,10004,10005
+NW0202,Normal,Weapon,Uncommon,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,26,4,20,10001,10002,10003,10004,10005
+NW0203,Normal,Weapon,Rare,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,39,5,30,10001,10002,10003,10004,10005
+NW0204,Normal,Weapon,Epic,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,65,9,40,10001,10002,10003,10004,10005
+NW0205,Normal,Weapon,Epic1,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,78,10,50,10001,10002,10003,10004,10005
+NW0206,Normal,Weapon,Epic2,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,91,11,60,10001,10002,10003,10004,10005
+NW0207,Normal,Weapon,Legendary,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,172,13,70,10001,10002,10003,10004,10005
+NW0208,Normal,Weapon,Legendary1,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,200,15,80,10001,10002,10003,10004,10005
+NW0209,Normal,Weapon,Legendary2,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,229,17,90,10001,10002,10003,10004,10005
+NW0210,Normal,Weapon,Legendary3,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,257,19,100,10001,10002,10003,10004,10005
+NW0211,Normal,Weapon,Myth,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,300,21,110,10001,10002,10003,10004,10005
+NW0212,Normal,Weapon,Myth1,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,407,23,120,10001,10002,10003,10004,10005
+NW0213,Normal,Weapon,Myth2,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,508,25,130,10001,10002,10003,10004,10005
+NW0214,Normal,Weapon,Myth3,Summoner's Rod,Summoner's Rod,Weapon_02,0,0,564,30,140,10001,10002,10003,10004,10005
+NW0301,Normal,Weapon,Common,Sword of protection,Sword of protection,Weapon_03,0,0,13,3,10,10001,10002,10003,10004,10005
+NW0302,Normal,Weapon,Uncommon,Sword of protection,Sword of protection,Weapon_03,0,0,26,4,20,10001,10002,10003,10004,10005
+NW0303,Normal,Weapon,Rare,Sword of protection,Sword of protection,Weapon_03,0,0,39,5,30,10001,10002,10003,10004,10005
+NW0304,Normal,Weapon,Epic,Sword of protection,Sword of protection,Weapon_03,0,0,65,9,40,10001,10002,10003,10004,10005
+NW0305,Normal,Weapon,Epic1,Sword of protection,Sword of protection,Weapon_03,0,0,78,10,50,10001,10002,10003,10004,10005
+NW0306,Normal,Weapon,Epic2,Sword of protection,Sword of protection,Weapon_03,0,0,91,11,60,10001,10002,10003,10004,10005
+NW0307,Normal,Weapon,Legendary,Sword of protection,Sword of protection,Weapon_03,0,0,172,13,70,10001,10002,10003,10004,10005
+NW0308,Normal,Weapon,Legendary1,Sword of protection,Sword of protection,Weapon_03,0,0,200,15,80,10001,10002,10003,10004,10005
+NW0309,Normal,Weapon,Legendary2,Sword of protection,Sword of protection,Weapon_03,0,0,229,17,90,10001,10002,10003,10004,10005
+NW0310,Normal,Weapon,Legendary3,Sword of protection,Sword of protection,Weapon_03,0,0,257,19,100,10001,10002,10003,10004,10005
+NW0311,Normal,Weapon,Myth,Sword of protection,Sword of protection,Weapon_03,0,0,300,21,110,10001,10002,10003,10004,10005
+NW0312,Normal,Weapon,Myth1,Sword of protection,Sword of protection,Weapon_03,0,0,407,23,120,10001,10002,10003,10004,10005
+NW0313,Normal,Weapon,Myth2,Sword of protection,Sword of protection,Weapon_03,0,0,508,25,130,10001,10002,10003,10004,10005
+NW0314,Normal,Weapon,Myth3,Sword of protection,Sword of protection,Weapon_03,0,0,564,30,140,10001,10002,10003,10004,10005
+NG0101,Normal,Gloves,Common,Glove of darkness,Glove of darkness,Gloves_01,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0102,Normal,Gloves,Uncommon,Glove of darkness,Glove of darkness,Gloves_01,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0103,Normal,Gloves,Rare,Glove of darkness,Glove of darkness,Gloves_01,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0104,Normal,Gloves,Epic,Glove of darkness,Glove of darkness,Gloves_01,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0105,Normal,Gloves,Epic1,Glove of darkness,Glove of darkness,Gloves_01,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0106,Normal,Gloves,Epic2,Glove of darkness,Glove of darkness,Gloves_01,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0107,Normal,Gloves,Legendary,Glove of darkness,Glove of darkness,Gloves_01,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0108,Normal,Gloves,Legendary1,Glove of darkness,Glove of darkness,Gloves_01,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0109,Normal,Gloves,Legendary2,Glove of darkness,Glove of darkness,Gloves_01,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0110,Normal,Gloves,Legendary3,Glove of darkness,Glove of darkness,Gloves_01,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0111,Normal,Gloves,Myth,Glove of darkness,Glove of darkness,Gloves_01,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0112,Normal,Gloves,Myth1,Glove of darkness,Glove of darkness,Gloves_01,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0113,Normal,Gloves,Myth2,Glove of darkness,Glove of darkness,Gloves_01,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0114,Normal,Gloves,Myth3,Glove of darkness,Glove of darkness,Gloves_01,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0201,Normal,Gloves,Common,Heavenly glove,Heavenly glove,Gloves_02,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0202,Normal,Gloves,Uncommon,Heavenly glove,Heavenly glove,Gloves_02,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0203,Normal,Gloves,Rare,Heavenly glove,Heavenly glove,Gloves_02,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0204,Normal,Gloves,Epic,Heavenly glove,Heavenly glove,Gloves_02,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0205,Normal,Gloves,Epic1,Heavenly glove,Heavenly glove,Gloves_02,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0206,Normal,Gloves,Epic2,Heavenly glove,Heavenly glove,Gloves_02,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0207,Normal,Gloves,Legendary,Heavenly glove,Heavenly glove,Gloves_02,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0208,Normal,Gloves,Legendary1,Heavenly glove,Heavenly glove,Gloves_02,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0209,Normal,Gloves,Legendary2,Heavenly glove,Heavenly glove,Gloves_02,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0210,Normal,Gloves,Legendary3,Heavenly glove,Heavenly glove,Gloves_02,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0211,Normal,Gloves,Myth,Heavenly glove,Heavenly glove,Gloves_02,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0212,Normal,Gloves,Myth1,Heavenly glove,Heavenly glove,Gloves_02,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0213,Normal,Gloves,Myth2,Heavenly glove,Heavenly glove,Gloves_02,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0214,Normal,Gloves,Myth3,Heavenly glove,Heavenly glove,Gloves_02,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0301,Normal,Gloves,Common,Flame glove,Flame glove,Gloves_03,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0302,Normal,Gloves,Uncommon,Flame glove,Flame glove,Gloves_03,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0303,Normal,Gloves,Rare,Flame glove,Flame glove,Gloves_03,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0304,Normal,Gloves,Epic,Flame glove,Flame glove,Gloves_03,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0305,Normal,Gloves,Epic1,Flame glove,Flame glove,Gloves_03,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0306,Normal,Gloves,Epic2,Flame glove,Flame glove,Gloves_03,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0307,Normal,Gloves,Legendary,Flame glove,Flame glove,Gloves_03,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0308,Normal,Gloves,Legendary1,Flame glove,Flame glove,Gloves_03,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0309,Normal,Gloves,Legendary2,Flame glove,Flame glove,Gloves_03,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0310,Normal,Gloves,Legendary3,Flame glove,Flame glove,Gloves_03,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0311,Normal,Gloves,Myth,Flame glove,Flame glove,Gloves_03,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0312,Normal,Gloves,Myth1,Flame glove,Flame glove,Gloves_03,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0313,Normal,Gloves,Myth2,Flame glove,Flame glove,Gloves_03,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0314,Normal,Gloves,Myth3,Flame glove,Flame glove,Gloves_03,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0401,Normal,Gloves,Common,Skull's Glove,Skull's Glove,Gloves_04,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0402,Normal,Gloves,Uncommon,Skull's Glove,Skull's Glove,Gloves_04,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0403,Normal,Gloves,Rare,Skull's Glove,Skull's Glove,Gloves_04,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0404,Normal,Gloves,Epic,Skull's Glove,Skull's Glove,Gloves_04,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0405,Normal,Gloves,Epic1,Skull's Glove,Skull's Glove,Gloves_04,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0406,Normal,Gloves,Epic2,Skull's Glove,Skull's Glove,Gloves_04,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0407,Normal,Gloves,Legendary,Skull's Glove,Skull's Glove,Gloves_04,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0408,Normal,Gloves,Legendary1,Skull's Glove,Skull's Glove,Gloves_04,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0409,Normal,Gloves,Legendary2,Skull's Glove,Skull's Glove,Gloves_04,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0410,Normal,Gloves,Legendary3,Skull's Glove,Skull's Glove,Gloves_04,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0411,Normal,Gloves,Myth,Skull's Glove,Skull's Glove,Gloves_04,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0412,Normal,Gloves,Myth1,Skull's Glove,Skull's Glove,Gloves_04,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0413,Normal,Gloves,Myth2,Skull's Glove,Skull's Glove,Gloves_04,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0414,Normal,Gloves,Myth3,Skull's Glove,Skull's Glove,Gloves_04,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0501,Normal,Gloves,Common,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0502,Normal,Gloves,Uncommon,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0503,Normal,Gloves,Rare,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0504,Normal,Gloves,Epic,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0505,Normal,Gloves,Epic1,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0506,Normal,Gloves,Epic2,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0507,Normal,Gloves,Legendary,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0508,Normal,Gloves,Legendary1,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0509,Normal,Gloves,Legendary2,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0510,Normal,Gloves,Legendary3,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0511,Normal,Gloves,Myth,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0512,Normal,Gloves,Myth1,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0513,Normal,Gloves,Myth2,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0514,Normal,Gloves,Myth3,Ironclad Gloves,Ironclad Gloves,Gloves_05,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0601,Normal,Gloves,Common,Divine glove,Divine glove,Gloves_06,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0602,Normal,Gloves,Uncommon,Divine glove,Divine glove,Gloves_06,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0603,Normal,Gloves,Rare,Divine glove,Divine glove,Gloves_06,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0604,Normal,Gloves,Epic,Divine glove,Divine glove,Gloves_06,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0605,Normal,Gloves,Epic1,Divine glove,Divine glove,Gloves_06,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0606,Normal,Gloves,Epic2,Divine glove,Divine glove,Gloves_06,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0607,Normal,Gloves,Legendary,Divine glove,Divine glove,Gloves_06,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0608,Normal,Gloves,Legendary1,Divine glove,Divine glove,Gloves_06,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0609,Normal,Gloves,Legendary2,Divine glove,Divine glove,Gloves_06,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0610,Normal,Gloves,Legendary3,Divine glove,Divine glove,Gloves_06,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0611,Normal,Gloves,Myth,Divine glove,Divine glove,Gloves_06,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0612,Normal,Gloves,Myth1,Divine glove,Divine glove,Gloves_06,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0613,Normal,Gloves,Myth2,Divine glove,Divine glove,Gloves_06,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0614,Normal,Gloves,Myth3,Divine glove,Divine glove,Gloves_06,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0701,Normal,Gloves,Common,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0702,Normal,Gloves,Uncommon,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0703,Normal,Gloves,Rare,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0704,Normal,Gloves,Epic,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0705,Normal,Gloves,Epic1,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0706,Normal,Gloves,Epic2,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0707,Normal,Gloves,Legendary,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0708,Normal,Gloves,Legendary1,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0709,Normal,Gloves,Legendary2,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0710,Normal,Gloves,Legendary3,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0711,Normal,Gloves,Myth,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0712,Normal,Gloves,Myth1,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0713,Normal,Gloves,Myth2,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0714,Normal,Gloves,Myth3,Assassin's Glove,Assassin's Glove,Gloves_07,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0801,Normal,Gloves,Common,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0802,Normal,Gloves,Uncommon,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0803,Normal,Gloves,Rare,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0804,Normal,Gloves,Epic,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0805,Normal,Gloves,Epic1,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0806,Normal,Gloves,Epic2,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0807,Normal,Gloves,Legendary,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0808,Normal,Gloves,Legendary1,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0809,Normal,Gloves,Legendary2,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0810,Normal,Gloves,Legendary3,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0811,Normal,Gloves,Myth,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0812,Normal,Gloves,Myth1,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0813,Normal,Gloves,Myth2,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0814,Normal,Gloves,Myth3,Lightning Gloves,Lightning Gloves,Gloves_08,0,0,490,19,140,10001,10002,10003,10004,10005
+NG0901,Normal,Gloves,Common,Glove of death,Glove of death,Gloves_09,0,0,10,2,10,10001,10002,10003,10004,10005
+NG0902,Normal,Gloves,Uncommon,Glove of death,Glove of death,Gloves_09,0,0,21,3,20,10001,10002,10003,10004,10005
+NG0903,Normal,Gloves,Rare,Glove of death,Glove of death,Gloves_09,0,0,31,4,30,10001,10002,10003,10004,10005
+NG0904,Normal,Gloves,Epic,Glove of death,Glove of death,Gloves_09,0,0,52,6,40,10001,10002,10003,10004,10005
+NG0905,Normal,Gloves,Epic1,Glove of death,Glove of death,Gloves_09,0,0,62,7,50,10001,10002,10003,10004,10005
+NG0906,Normal,Gloves,Epic2,Glove of death,Glove of death,Gloves_09,0,0,73,8,60,10001,10002,10003,10004,10005
+NG0907,Normal,Gloves,Legendary,Glove of death,Glove of death,Gloves_09,0,0,138,10,70,10001,10002,10003,10004,10005
+NG0908,Normal,Gloves,Legendary1,Glove of death,Glove of death,Gloves_09,0,0,160,11,80,10001,10002,10003,10004,10005
+NG0909,Normal,Gloves,Legendary2,Glove of death,Glove of death,Gloves_09,0,0,183,12,90,10001,10002,10003,10004,10005
+NG0910,Normal,Gloves,Legendary3,Glove of death,Glove of death,Gloves_09,0,0,205,14,100,10001,10002,10003,10004,10005
+NG0911,Normal,Gloves,Myth,Glove of death,Glove of death,Gloves_09,0,0,241,15,110,10001,10002,10003,10004,10005
+NG0912,Normal,Gloves,Myth1,Glove of death,Glove of death,Gloves_09,0,0,325,16,120,10001,10002,10003,10004,10005
+NG0913,Normal,Gloves,Myth2,Glove of death,Glove of death,Gloves_09,0,0,407,17,130,10001,10002,10003,10004,10005
+NG0914,Normal,Gloves,Myth3,Glove of death,Glove of death,Gloves_09,0,0,490,19,140,10001,10002,10003,10004,10005
+NG1001,Normal,Gloves,Common,Glove of nature,Glove of nature,Gloves_10,0,0,10,2,10,10001,10002,10003,10004,10005
+NG1002,Normal,Gloves,Uncommon,Glove of nature,Glove of nature,Gloves_10,0,0,21,3,20,10001,10002,10003,10004,10005
+NG1003,Normal,Gloves,Rare,Glove of nature,Glove of nature,Gloves_10,0,0,31,4,30,10001,10002,10003,10004,10005
+NG1004,Normal,Gloves,Epic,Glove of nature,Glove of nature,Gloves_10,0,0,52,6,40,10001,10002,10003,10004,10005
+NG1005,Normal,Gloves,Epic1,Glove of nature,Glove of nature,Gloves_10,0,0,62,7,50,10001,10002,10003,10004,10005
+NG1006,Normal,Gloves,Epic2,Glove of nature,Glove of nature,Gloves_10,0,0,73,8,60,10001,10002,10003,10004,10005
+NG1007,Normal,Gloves,Legendary,Glove of nature,Glove of nature,Gloves_10,0,0,138,10,70,10001,10002,10003,10004,10005
+NG1008,Normal,Gloves,Legendary1,Glove of nature,Glove of nature,Gloves_10,0,0,160,11,80,10001,10002,10003,10004,10005
+NG1009,Normal,Gloves,Legendary2,Glove of nature,Glove of nature,Gloves_10,0,0,183,12,90,10001,10002,10003,10004,10005
+NG1010,Normal,Gloves,Legendary3,Glove of nature,Glove of nature,Gloves_10,0,0,205,14,100,10001,10002,10003,10004,10005
+NG1011,Normal,Gloves,Myth,Glove of nature,Glove of nature,Gloves_10,0,0,241,15,110,10001,10002,10003,10004,10005
+NG1012,Normal,Gloves,Myth1,Glove of nature,Glove of nature,Gloves_10,0,0,325,16,120,10001,10002,10003,10004,10005
+NG1013,Normal,Gloves,Myth2,Glove of nature,Glove of nature,Gloves_10,0,0,407,17,130,10001,10002,10003,10004,10005
+NG1014,Normal,Gloves,Myth3,Glove of nature,Glove of nature,Gloves_10,0,0,490,19,140,10001,10002,10003,10004,10005
+NR0101,Normal,Ring,Common,Ring of darkness,Ring of darkness,Ring_01,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0102,Normal,Ring,Uncommon,Ring of darkness,Ring of darkness,Ring_01,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0103,Normal,Ring,Rare,Ring of darkness,Ring of darkness,Ring_01,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0104,Normal,Ring,Epic,Ring of darkness,Ring of darkness,Ring_01,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0105,Normal,Ring,Epic1,Ring of darkness,Ring of darkness,Ring_01,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0106,Normal,Ring,Epic2,Ring of darkness,Ring of darkness,Ring_01,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0107,Normal,Ring,Legendary,Ring of darkness,Ring of darkness,Ring_01,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0108,Normal,Ring,Legendary1,Ring of darkness,Ring of darkness,Ring_01,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0109,Normal,Ring,Legendary2,Ring of darkness,Ring of darkness,Ring_01,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0110,Normal,Ring,Legendary3,Ring of darkness,Ring of darkness,Ring_01,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0111,Normal,Ring,Myth,Ring of darkness,Ring of darkness,Ring_01,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0112,Normal,Ring,Myth1,Ring of darkness,Ring of darkness,Ring_01,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0113,Normal,Ring,Myth2,Ring of darkness,Ring of darkness,Ring_01,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0114,Normal,Ring,Myth3,Ring of darkness,Ring of darkness,Ring_01,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0201,Normal,Ring,Common,Heavenly ring,Heavenly ring,Ring_02,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0202,Normal,Ring,Uncommon,Heavenly ring,Heavenly ring,Ring_02,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0203,Normal,Ring,Rare,Heavenly ring,Heavenly ring,Ring_02,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0204,Normal,Ring,Epic,Heavenly ring,Heavenly ring,Ring_02,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0205,Normal,Ring,Epic1,Heavenly ring,Heavenly ring,Ring_02,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0206,Normal,Ring,Epic2,Heavenly ring,Heavenly ring,Ring_02,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0207,Normal,Ring,Legendary,Heavenly ring,Heavenly ring,Ring_02,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0208,Normal,Ring,Legendary1,Heavenly ring,Heavenly ring,Ring_02,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0209,Normal,Ring,Legendary2,Heavenly ring,Heavenly ring,Ring_02,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0210,Normal,Ring,Legendary3,Heavenly ring,Heavenly ring,Ring_02,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0211,Normal,Ring,Myth,Heavenly ring,Heavenly ring,Ring_02,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0212,Normal,Ring,Myth1,Heavenly ring,Heavenly ring,Ring_02,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0213,Normal,Ring,Myth2,Heavenly ring,Heavenly ring,Ring_02,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0214,Normal,Ring,Myth3,Heavenly ring,Heavenly ring,Ring_02,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0301,Normal,Ring,Common,Ring of flame,Ring of flame,Ring_03,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0302,Normal,Ring,Uncommon,Ring of flame,Ring of flame,Ring_03,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0303,Normal,Ring,Rare,Ring of flame,Ring of flame,Ring_03,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0304,Normal,Ring,Epic,Ring of flame,Ring of flame,Ring_03,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0305,Normal,Ring,Epic1,Ring of flame,Ring of flame,Ring_03,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0306,Normal,Ring,Epic2,Ring of flame,Ring of flame,Ring_03,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0307,Normal,Ring,Legendary,Ring of flame,Ring of flame,Ring_03,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0308,Normal,Ring,Legendary1,Ring of flame,Ring of flame,Ring_03,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0309,Normal,Ring,Legendary2,Ring of flame,Ring of flame,Ring_03,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0310,Normal,Ring,Legendary3,Ring of flame,Ring of flame,Ring_03,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0311,Normal,Ring,Myth,Ring of flame,Ring of flame,Ring_03,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0312,Normal,Ring,Myth1,Ring of flame,Ring of flame,Ring_03,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0313,Normal,Ring,Myth2,Ring of flame,Ring of flame,Ring_03,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0314,Normal,Ring,Myth3,Ring of flame,Ring of flame,Ring_03,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0401,Normal,Ring,Common,Ring of skulls,Ring of skulls,Ring_04,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0402,Normal,Ring,Uncommon,Ring of skulls,Ring of skulls,Ring_04,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0403,Normal,Ring,Rare,Ring of skulls,Ring of skulls,Ring_04,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0404,Normal,Ring,Epic,Ring of skulls,Ring of skulls,Ring_04,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0405,Normal,Ring,Epic1,Ring of skulls,Ring of skulls,Ring_04,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0406,Normal,Ring,Epic2,Ring of skulls,Ring of skulls,Ring_04,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0407,Normal,Ring,Legendary,Ring of skulls,Ring of skulls,Ring_04,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0408,Normal,Ring,Legendary1,Ring of skulls,Ring of skulls,Ring_04,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0409,Normal,Ring,Legendary2,Ring of skulls,Ring of skulls,Ring_04,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0410,Normal,Ring,Legendary3,Ring of skulls,Ring of skulls,Ring_04,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0411,Normal,Ring,Myth,Ring of skulls,Ring of skulls,Ring_04,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0412,Normal,Ring,Myth1,Ring of skulls,Ring of skulls,Ring_04,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0413,Normal,Ring,Myth2,Ring of skulls,Ring of skulls,Ring_04,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0414,Normal,Ring,Myth3,Ring of skulls,Ring of skulls,Ring_04,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0501,Normal,Ring,Common,Ring of ironclad,Ring of ironclad,Ring_05,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0502,Normal,Ring,Uncommon,Ring of ironclad,Ring of ironclad,Ring_05,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0503,Normal,Ring,Rare,Ring of ironclad,Ring of ironclad,Ring_05,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0504,Normal,Ring,Epic,Ring of ironclad,Ring of ironclad,Ring_05,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0505,Normal,Ring,Epic1,Ring of ironclad,Ring of ironclad,Ring_05,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0506,Normal,Ring,Epic2,Ring of ironclad,Ring of ironclad,Ring_05,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0507,Normal,Ring,Legendary,Ring of ironclad,Ring of ironclad,Ring_05,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0508,Normal,Ring,Legendary1,Ring of ironclad,Ring of ironclad,Ring_05,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0509,Normal,Ring,Legendary2,Ring of ironclad,Ring of ironclad,Ring_05,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0510,Normal,Ring,Legendary3,Ring of ironclad,Ring of ironclad,Ring_05,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0511,Normal,Ring,Myth,Ring of ironclad,Ring of ironclad,Ring_05,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0512,Normal,Ring,Myth1,Ring of ironclad,Ring of ironclad,Ring_05,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0513,Normal,Ring,Myth2,Ring of ironclad,Ring of ironclad,Ring_05,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0514,Normal,Ring,Myth3,Ring of ironclad,Ring of ironclad,Ring_05,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0601,Normal,Ring,Common,Sacred ring,Sacred ring,Ring_06,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0602,Normal,Ring,Uncommon,Sacred ring,Sacred ring,Ring_06,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0603,Normal,Ring,Rare,Sacred ring,Sacred ring,Ring_06,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0604,Normal,Ring,Epic,Sacred ring,Sacred ring,Ring_06,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0605,Normal,Ring,Epic1,Sacred ring,Sacred ring,Ring_06,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0606,Normal,Ring,Epic2,Sacred ring,Sacred ring,Ring_06,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0607,Normal,Ring,Legendary,Sacred ring,Sacred ring,Ring_06,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0608,Normal,Ring,Legendary1,Sacred ring,Sacred ring,Ring_06,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0609,Normal,Ring,Legendary2,Sacred ring,Sacred ring,Ring_06,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0610,Normal,Ring,Legendary3,Sacred ring,Sacred ring,Ring_06,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0611,Normal,Ring,Myth,Sacred ring,Sacred ring,Ring_06,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0612,Normal,Ring,Myth1,Sacred ring,Sacred ring,Ring_06,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0613,Normal,Ring,Myth2,Sacred ring,Sacred ring,Ring_06,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0614,Normal,Ring,Myth3,Sacred ring,Sacred ring,Ring_06,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0701,Normal,Ring,Common,Assassin's ring,Assassin's ring,Ring_07,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0702,Normal,Ring,Uncommon,Assassin's ring,Assassin's ring,Ring_07,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0703,Normal,Ring,Rare,Assassin's ring,Assassin's ring,Ring_07,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0704,Normal,Ring,Epic,Assassin's ring,Assassin's ring,Ring_07,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0705,Normal,Ring,Epic1,Assassin's ring,Assassin's ring,Ring_07,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0706,Normal,Ring,Epic2,Assassin's ring,Assassin's ring,Ring_07,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0707,Normal,Ring,Legendary,Assassin's ring,Assassin's ring,Ring_07,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0708,Normal,Ring,Legendary1,Assassin's ring,Assassin's ring,Ring_07,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0709,Normal,Ring,Legendary2,Assassin's ring,Assassin's ring,Ring_07,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0710,Normal,Ring,Legendary3,Assassin's ring,Assassin's ring,Ring_07,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0711,Normal,Ring,Myth,Assassin's ring,Assassin's ring,Ring_07,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0712,Normal,Ring,Myth1,Assassin's ring,Assassin's ring,Ring_07,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0713,Normal,Ring,Myth2,Assassin's ring,Assassin's ring,Ring_07,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0714,Normal,Ring,Myth3,Assassin's ring,Assassin's ring,Ring_07,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0801,Normal,Ring,Common,Ring of lightning,Ring of lightning,Ring_08,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0802,Normal,Ring,Uncommon,Ring of lightning,Ring of lightning,Ring_08,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0803,Normal,Ring,Rare,Ring of lightning,Ring of lightning,Ring_08,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0804,Normal,Ring,Epic,Ring of lightning,Ring of lightning,Ring_08,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0805,Normal,Ring,Epic1,Ring of lightning,Ring of lightning,Ring_08,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0806,Normal,Ring,Epic2,Ring of lightning,Ring of lightning,Ring_08,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0807,Normal,Ring,Legendary,Ring of lightning,Ring of lightning,Ring_08,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0808,Normal,Ring,Legendary1,Ring of lightning,Ring of lightning,Ring_08,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0809,Normal,Ring,Legendary2,Ring of lightning,Ring of lightning,Ring_08,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0810,Normal,Ring,Legendary3,Ring of lightning,Ring of lightning,Ring_08,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0811,Normal,Ring,Myth,Ring of lightning,Ring of lightning,Ring_08,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0812,Normal,Ring,Myth1,Ring of lightning,Ring of lightning,Ring_08,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0813,Normal,Ring,Myth2,Ring of lightning,Ring of lightning,Ring_08,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0814,Normal,Ring,Myth3,Ring of lightning,Ring of lightning,Ring_08,0,0,429,22,140,10001,10002,10003,10004,10005
+NR0901,Normal,Ring,Common,Ring of death,Ring of death,Ring_09,0,0,9,2,10,10001,10002,10003,10004,10005
+NR0902,Normal,Ring,Uncommon,Ring of death,Ring of death,Ring_09,0,0,18,3,20,10001,10002,10003,10004,10005
+NR0903,Normal,Ring,Rare,Ring of death,Ring of death,Ring_09,0,0,27,4,30,10001,10002,10003,10004,10005
+NR0904,Normal,Ring,Epic,Ring of death,Ring of death,Ring_09,0,0,46,7,40,10001,10002,10003,10004,10005
+NR0905,Normal,Ring,Epic1,Ring of death,Ring of death,Ring_09,0,0,55,8,50,10001,10002,10003,10004,10005
+NR0906,Normal,Ring,Epic2,Ring of death,Ring of death,Ring_09,0,0,64,10,60,10001,10002,10003,10004,10005
+NR0907,Normal,Ring,Legendary,Ring of death,Ring of death,Ring_09,0,0,120,11,70,10001,10002,10003,10004,10005
+NR0908,Normal,Ring,Legendary1,Ring of death,Ring of death,Ring_09,0,0,140,13,80,10001,10002,10003,10004,10005
+NR0909,Normal,Ring,Legendary2,Ring of death,Ring of death,Ring_09,0,0,160,15,90,10001,10002,10003,10004,10005
+NR0910,Normal,Ring,Legendary3,Ring of death,Ring of death,Ring_09,0,0,181,16,100,10001,10002,10003,10004,10005
+NR0911,Normal,Ring,Myth,Ring of death,Ring of death,Ring_09,0,0,211,18,110,10001,10002,10003,10004,10005
+NR0912,Normal,Ring,Myth1,Ring of death,Ring of death,Ring_09,0,0,283,19,120,10001,10002,10003,10004,10005
+NR0913,Normal,Ring,Myth2,Ring of death,Ring of death,Ring_09,0,0,356,21,130,10001,10002,10003,10004,10005
+NR0914,Normal,Ring,Myth3,Ring of death,Ring of death,Ring_09,0,0,429,22,140,10001,10002,10003,10004,10005
+NR1001,Normal,Ring,Common,ring of nature,ring of nature,Ring_10,0,0,9,2,10,10001,10002,10003,10004,10005
+NR1002,Normal,Ring,Uncommon,ring of nature,ring of nature,Ring_10,0,0,18,3,20,10001,10002,10003,10004,10005
+NR1003,Normal,Ring,Rare,ring of nature,ring of nature,Ring_10,0,0,27,4,30,10001,10002,10003,10004,10005
+NR1004,Normal,Ring,Epic,ring of nature,ring of nature,Ring_10,0,0,46,7,40,10001,10002,10003,10004,10005
+NR1005,Normal,Ring,Epic1,ring of nature,ring of nature,Ring_10,0,0,55,8,50,10001,10002,10003,10004,10005
+NR1006,Normal,Ring,Epic2,ring of nature,ring of nature,Ring_10,0,0,64,10,60,10001,10002,10003,10004,10005
+NR1007,Normal,Ring,Legendary,ring of nature,ring of nature,Ring_10,0,0,120,11,70,10001,10002,10003,10004,10005
+NR1008,Normal,Ring,Legendary1,ring of nature,ring of nature,Ring_10,0,0,140,13,80,10001,10002,10003,10004,10005
+NR1009,Normal,Ring,Legendary2,ring of nature,ring of nature,Ring_10,0,0,160,15,90,10001,10002,10003,10004,10005
+NR1010,Normal,Ring,Legendary3,ring of nature,ring of nature,Ring_10,0,0,181,16,100,10001,10002,10003,10004,10005
+NR1011,Normal,Ring,Myth,ring of nature,ring of nature,Ring_10,0,0,211,18,110,10001,10002,10003,10004,10005
+NR1012,Normal,Ring,Myth1,ring of nature,ring of nature,Ring_10,0,0,283,19,120,10001,10002,10003,10004,10005
+NR1013,Normal,Ring,Myth2,ring of nature,ring of nature,Ring_10,0,0,356,21,130,10001,10002,10003,10004,10005
+NR1014,Normal,Ring,Myth3,ring of nature,ring of nature,Ring_10,0,0,429,22,140,10001,10002,10003,10004,10005
+NH0101,Normal,Helmet,Common,helmet of darkness,helmet of darkness,Helmet_01,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0102,Normal,Helmet,Uncommon,helmet of darkness,helmet of darkness,Helmet_01,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0103,Normal,Helmet,Rare,helmet of darkness,helmet of darkness,Helmet_01,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0104,Normal,Helmet,Epic,helmet of darkness,helmet of darkness,Helmet_01,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0105,Normal,Helmet,Epic1,helmet of darkness,helmet of darkness,Helmet_01,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0106,Normal,Helmet,Epic2,helmet of darkness,helmet of darkness,Helmet_01,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0107,Normal,Helmet,Legendary,helmet of darkness,helmet of darkness,Helmet_01,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0108,Normal,Helmet,Legendary1,helmet of darkness,helmet of darkness,Helmet_01,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0109,Normal,Helmet,Legendary2,helmet of darkness,helmet of darkness,Helmet_01,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0110,Normal,Helmet,Legendary3,helmet of darkness,helmet of darkness,Helmet_01,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0111,Normal,Helmet,Myth,helmet of darkness,helmet of darkness,Helmet_01,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0112,Normal,Helmet,Myth1,helmet of darkness,helmet of darkness,Helmet_01,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0113,Normal,Helmet,Myth2,helmet of darkness,helmet of darkness,Helmet_01,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0114,Normal,Helmet,Myth3,helmet of darkness,helmet of darkness,Helmet_01,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0201,Normal,Helmet,Common,Helm of Heaven,Helm of Heaven,Helmet_02,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0202,Normal,Helmet,Uncommon,Helm of Heaven,Helm of Heaven,Helmet_02,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0203,Normal,Helmet,Rare,Helm of Heaven,Helm of Heaven,Helmet_02,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0204,Normal,Helmet,Epic,Helm of Heaven,Helm of Heaven,Helmet_02,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0205,Normal,Helmet,Epic1,Helm of Heaven,Helm of Heaven,Helmet_02,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0206,Normal,Helmet,Epic2,Helm of Heaven,Helm of Heaven,Helmet_02,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0207,Normal,Helmet,Legendary,Helm of Heaven,Helm of Heaven,Helmet_02,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0208,Normal,Helmet,Legendary1,Helm of Heaven,Helm of Heaven,Helmet_02,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0209,Normal,Helmet,Legendary2,Helm of Heaven,Helm of Heaven,Helmet_02,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0210,Normal,Helmet,Legendary3,Helm of Heaven,Helm of Heaven,Helmet_02,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0211,Normal,Helmet,Myth,Helm of Heaven,Helm of Heaven,Helmet_02,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0212,Normal,Helmet,Myth1,Helm of Heaven,Helm of Heaven,Helmet_02,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0213,Normal,Helmet,Myth2,Helm of Heaven,Helm of Heaven,Helmet_02,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0214,Normal,Helmet,Myth3,Helm of Heaven,Helm of Heaven,Helmet_02,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0301,Normal,Helmet,Common,Helm of Flame,Helm of Flame,Helmet_03,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0302,Normal,Helmet,Uncommon,Helm of Flame,Helm of Flame,Helmet_03,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0303,Normal,Helmet,Rare,Helm of Flame,Helm of Flame,Helmet_03,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0304,Normal,Helmet,Epic,Helm of Flame,Helm of Flame,Helmet_03,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0305,Normal,Helmet,Epic1,Helm of Flame,Helm of Flame,Helmet_03,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0306,Normal,Helmet,Epic2,Helm of Flame,Helm of Flame,Helmet_03,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0307,Normal,Helmet,Legendary,Helm of Flame,Helm of Flame,Helmet_03,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0308,Normal,Helmet,Legendary1,Helm of Flame,Helm of Flame,Helmet_03,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0309,Normal,Helmet,Legendary2,Helm of Flame,Helm of Flame,Helmet_03,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0310,Normal,Helmet,Legendary3,Helm of Flame,Helm of Flame,Helmet_03,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0311,Normal,Helmet,Myth,Helm of Flame,Helm of Flame,Helmet_03,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0312,Normal,Helmet,Myth1,Helm of Flame,Helm of Flame,Helmet_03,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0313,Normal,Helmet,Myth2,Helm of Flame,Helm of Flame,Helmet_03,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0314,Normal,Helmet,Myth3,Helm of Flame,Helm of Flame,Helmet_03,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0401,Normal,Helmet,Common,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0402,Normal,Helmet,Uncommon,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0403,Normal,Helmet,Rare,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0404,Normal,Helmet,Epic,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0405,Normal,Helmet,Epic1,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0406,Normal,Helmet,Epic2,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0407,Normal,Helmet,Legendary,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0408,Normal,Helmet,Legendary1,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0409,Normal,Helmet,Legendary2,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0410,Normal,Helmet,Legendary3,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0411,Normal,Helmet,Myth,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0412,Normal,Helmet,Myth1,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0413,Normal,Helmet,Myth2,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0414,Normal,Helmet,Myth3,Helm of the Skeleton,Helm of the Skeleton,Helmet_04,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0501,Normal,Helmet,Common,ironclad helmet,ironclad helmet,Helmet_05,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0502,Normal,Helmet,Uncommon,ironclad helmet,ironclad helmet,Helmet_05,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0503,Normal,Helmet,Rare,ironclad helmet,ironclad helmet,Helmet_05,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0504,Normal,Helmet,Epic,ironclad helmet,ironclad helmet,Helmet_05,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0505,Normal,Helmet,Epic1,ironclad helmet,ironclad helmet,Helmet_05,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0506,Normal,Helmet,Epic2,ironclad helmet,ironclad helmet,Helmet_05,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0507,Normal,Helmet,Legendary,ironclad helmet,ironclad helmet,Helmet_05,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0508,Normal,Helmet,Legendary1,ironclad helmet,ironclad helmet,Helmet_05,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0509,Normal,Helmet,Legendary2,ironclad helmet,ironclad helmet,Helmet_05,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0510,Normal,Helmet,Legendary3,ironclad helmet,ironclad helmet,Helmet_05,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0511,Normal,Helmet,Myth,ironclad helmet,ironclad helmet,Helmet_05,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0512,Normal,Helmet,Myth1,ironclad helmet,ironclad helmet,Helmet_05,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0513,Normal,Helmet,Myth2,ironclad helmet,ironclad helmet,Helmet_05,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0514,Normal,Helmet,Myth3,ironclad helmet,ironclad helmet,Helmet_05,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0601,Normal,Helmet,Common,holy helmet,holy helmet,Helmet_06,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0602,Normal,Helmet,Uncommon,holy helmet,holy helmet,Helmet_06,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0603,Normal,Helmet,Rare,holy helmet,holy helmet,Helmet_06,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0604,Normal,Helmet,Epic,holy helmet,holy helmet,Helmet_06,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0605,Normal,Helmet,Epic1,holy helmet,holy helmet,Helmet_06,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0606,Normal,Helmet,Epic2,holy helmet,holy helmet,Helmet_06,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0607,Normal,Helmet,Legendary,holy helmet,holy helmet,Helmet_06,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0608,Normal,Helmet,Legendary1,holy helmet,holy helmet,Helmet_06,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0609,Normal,Helmet,Legendary2,holy helmet,holy helmet,Helmet_06,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0610,Normal,Helmet,Legendary3,holy helmet,holy helmet,Helmet_06,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0611,Normal,Helmet,Myth,holy helmet,holy helmet,Helmet_06,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0612,Normal,Helmet,Myth1,holy helmet,holy helmet,Helmet_06,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0613,Normal,Helmet,Myth2,holy helmet,holy helmet,Helmet_06,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0614,Normal,Helmet,Myth3,holy helmet,holy helmet,Helmet_06,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0701,Normal,Helmet,Common,Assassin's Helm,Assassin's Helm,Helmet_07,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0702,Normal,Helmet,Uncommon,Assassin's Helm,Assassin's Helm,Helmet_07,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0703,Normal,Helmet,Rare,Assassin's Helm,Assassin's Helm,Helmet_07,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0704,Normal,Helmet,Epic,Assassin's Helm,Assassin's Helm,Helmet_07,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0705,Normal,Helmet,Epic1,Assassin's Helm,Assassin's Helm,Helmet_07,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0706,Normal,Helmet,Epic2,Assassin's Helm,Assassin's Helm,Helmet_07,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0707,Normal,Helmet,Legendary,Assassin's Helm,Assassin's Helm,Helmet_07,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0708,Normal,Helmet,Legendary1,Assassin's Helm,Assassin's Helm,Helmet_07,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0709,Normal,Helmet,Legendary2,Assassin's Helm,Assassin's Helm,Helmet_07,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0710,Normal,Helmet,Legendary3,Assassin's Helm,Assassin's Helm,Helmet_07,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0711,Normal,Helmet,Myth,Assassin's Helm,Assassin's Helm,Helmet_07,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0712,Normal,Helmet,Myth1,Assassin's Helm,Assassin's Helm,Helmet_07,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0713,Normal,Helmet,Myth2,Assassin's Helm,Assassin's Helm,Helmet_07,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0714,Normal,Helmet,Myth3,Assassin's Helm,Assassin's Helm,Helmet_07,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0801,Normal,Helmet,Common,Helm of Lightning,Helm of Lightning,Helmet_08,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0802,Normal,Helmet,Uncommon,Helm of Lightning,Helm of Lightning,Helmet_08,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0803,Normal,Helmet,Rare,Helm of Lightning,Helm of Lightning,Helmet_08,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0804,Normal,Helmet,Epic,Helm of Lightning,Helm of Lightning,Helmet_08,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0805,Normal,Helmet,Epic1,Helm of Lightning,Helm of Lightning,Helmet_08,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0806,Normal,Helmet,Epic2,Helm of Lightning,Helm of Lightning,Helmet_08,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0807,Normal,Helmet,Legendary,Helm of Lightning,Helm of Lightning,Helmet_08,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0808,Normal,Helmet,Legendary1,Helm of Lightning,Helm of Lightning,Helmet_08,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0809,Normal,Helmet,Legendary2,Helm of Lightning,Helm of Lightning,Helmet_08,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0810,Normal,Helmet,Legendary3,Helm of Lightning,Helm of Lightning,Helmet_08,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0811,Normal,Helmet,Myth,Helm of Lightning,Helm of Lightning,Helmet_08,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0812,Normal,Helmet,Myth1,Helm of Lightning,Helm of Lightning,Helmet_08,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0813,Normal,Helmet,Myth2,Helm of Lightning,Helm of Lightning,Helmet_08,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0814,Normal,Helmet,Myth3,Helm of Lightning,Helm of Lightning,Helmet_08,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH0901,Normal,Helmet,Common,death helmet,death helmet,Helmet_09,49,4,0,0,10,10001,10002,10003,10004,10005
+NH0902,Normal,Helmet,Uncommon,death helmet,death helmet,Helmet_09,69,6,0,0,20,10001,10002,10003,10004,10005
+NH0903,Normal,Helmet,Rare,death helmet,death helmet,Helmet_09,98,8,0,0,30,10001,10002,10003,10004,10005
+NH0904,Normal,Helmet,Epic,death helmet,death helmet,Helmet_09,195,11,0,0,40,10001,10002,10003,10004,10005
+NH0905,Normal,Helmet,Epic1,death helmet,death helmet,Helmet_09,215,15,0,0,50,10001,10002,10003,10004,10005
+NH0906,Normal,Helmet,Epic2,death helmet,death helmet,Helmet_09,268,16,0,0,60,10001,10002,10003,10004,10005
+NH0907,Normal,Helmet,Legendary,death helmet,death helmet,Helmet_09,322,19,0,0,70,10001,10002,10003,10004,10005
+NH0908,Normal,Helmet,Legendary1,death helmet,death helmet,Helmet_09,376,22,0,0,80,10001,10002,10003,10004,10005
+NH0909,Normal,Helmet,Legendary2,death helmet,death helmet,Helmet_09,429,25,0,0,90,10001,10002,10003,10004,10005
+NH0910,Normal,Helmet,Legendary3,death helmet,death helmet,Helmet_09,482,28,0,0,100,10001,10002,10003,10004,10005
+NH0911,Normal,Helmet,Myth,death helmet,death helmet,Helmet_09,537,30,0,0,110,10001,10002,10003,10004,10005
+NH0912,Normal,Helmet,Myth1,death helmet,death helmet,Helmet_09,732,33,0,0,120,10001,10002,10003,10004,10005
+NH0913,Normal,Helmet,Myth2,death helmet,death helmet,Helmet_09,927,36,0,0,130,10001,10002,10003,10004,10005
+NH0914,Normal,Helmet,Myth3,death helmet,death helmet,Helmet_09,1122,40,0,0,140,10001,10002,10003,10004,10005
+NH1001,Normal,Helmet,Common,Helm of Nature,Helm of Nature,Helmet_10,49,4,0,0,10,10001,10002,10003,10004,10005
+NH1002,Normal,Helmet,Uncommon,Helm of Nature,Helm of Nature,Helmet_10,69,6,0,0,20,10001,10002,10003,10004,10005
+NH1003,Normal,Helmet,Rare,Helm of Nature,Helm of Nature,Helmet_10,98,8,0,0,30,10001,10002,10003,10004,10005
+NH1004,Normal,Helmet,Epic,Helm of Nature,Helm of Nature,Helmet_10,195,11,0,0,40,10001,10002,10003,10004,10005
+NH1005,Normal,Helmet,Epic1,Helm of Nature,Helm of Nature,Helmet_10,215,15,0,0,50,10001,10002,10003,10004,10005
+NH1006,Normal,Helmet,Epic2,Helm of Nature,Helm of Nature,Helmet_10,268,16,0,0,60,10001,10002,10003,10004,10005
+NH1007,Normal,Helmet,Legendary,Helm of Nature,Helm of Nature,Helmet_10,322,19,0,0,70,10001,10002,10003,10004,10005
+NH1008,Normal,Helmet,Legendary1,Helm of Nature,Helm of Nature,Helmet_10,376,22,0,0,80,10001,10002,10003,10004,10005
+NH1009,Normal,Helmet,Legendary2,Helm of Nature,Helm of Nature,Helmet_10,429,25,0,0,90,10001,10002,10003,10004,10005
+NH1010,Normal,Helmet,Legendary3,Helm of Nature,Helm of Nature,Helmet_10,482,28,0,0,100,10001,10002,10003,10004,10005
+NH1011,Normal,Helmet,Myth,Helm of Nature,Helm of Nature,Helmet_10,537,30,0,0,110,10001,10002,10003,10004,10005
+NH1012,Normal,Helmet,Myth1,Helm of Nature,Helm of Nature,Helmet_10,732,33,0,0,120,10001,10002,10003,10004,10005
+NH1013,Normal,Helmet,Myth2,Helm of Nature,Helm of Nature,Helmet_10,927,36,0,0,130,10001,10002,10003,10004,10005
+NH1014,Normal,Helmet,Myth3,Helm of Nature,Helm of Nature,Helmet_10,1122,40,0,0,140,10001,10002,10003,10004,10005
+NA0101,Normal,Armor,Common,dark armor,dark armor,Armor_01,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0102,Normal,Armor,Uncommon,dark armor,dark armor,Armor_01,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0103,Normal,Armor,Rare,dark armor,dark armor,Armor_01,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0104,Normal,Armor,Epic,dark armor,dark armor,Armor_01,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0105,Normal,Armor,Epic1,dark armor,dark armor,Armor_01,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0106,Normal,Armor,Epic2,dark armor,dark armor,Armor_01,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0107,Normal,Armor,Legendary,dark armor,dark armor,Armor_01,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0108,Normal,Armor,Legendary1,dark armor,dark armor,Armor_01,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0109,Normal,Armor,Legendary2,dark armor,dark armor,Armor_01,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0110,Normal,Armor,Legendary3,dark armor,dark armor,Armor_01,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0111,Normal,Armor,Myth,dark armor,dark armor,Armor_01,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0112,Normal,Armor,Myth1,dark armor,dark armor,Armor_01,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0113,Normal,Armor,Myth2,dark armor,dark armor,Armor_01,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0114,Normal,Armor,Myth3,dark armor,dark armor,Armor_01,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0201,Normal,Armor,Common,heavenly armor,heavenly armor,Armor_02,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0202,Normal,Armor,Uncommon,heavenly armor,heavenly armor,Armor_02,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0203,Normal,Armor,Rare,heavenly armor,heavenly armor,Armor_02,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0204,Normal,Armor,Epic,heavenly armor,heavenly armor,Armor_02,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0205,Normal,Armor,Epic1,heavenly armor,heavenly armor,Armor_02,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0206,Normal,Armor,Epic2,heavenly armor,heavenly armor,Armor_02,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0207,Normal,Armor,Legendary,heavenly armor,heavenly armor,Armor_02,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0208,Normal,Armor,Legendary1,heavenly armor,heavenly armor,Armor_02,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0209,Normal,Armor,Legendary2,heavenly armor,heavenly armor,Armor_02,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0210,Normal,Armor,Legendary3,heavenly armor,heavenly armor,Armor_02,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0211,Normal,Armor,Myth,heavenly armor,heavenly armor,Armor_02,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0212,Normal,Armor,Myth1,heavenly armor,heavenly armor,Armor_02,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0213,Normal,Armor,Myth2,heavenly armor,heavenly armor,Armor_02,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0214,Normal,Armor,Myth3,heavenly armor,heavenly armor,Armor_02,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0301,Normal,Armor,Common,flame armor,flame armor,Armor_03,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0302,Normal,Armor,Uncommon,flame armor,flame armor,Armor_03,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0303,Normal,Armor,Rare,flame armor,flame armor,Armor_03,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0304,Normal,Armor,Epic,flame armor,flame armor,Armor_03,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0305,Normal,Armor,Epic1,flame armor,flame armor,Armor_03,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0306,Normal,Armor,Epic2,flame armor,flame armor,Armor_03,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0307,Normal,Armor,Legendary,flame armor,flame armor,Armor_03,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0308,Normal,Armor,Legendary1,flame armor,flame armor,Armor_03,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0309,Normal,Armor,Legendary2,flame armor,flame armor,Armor_03,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0310,Normal,Armor,Legendary3,flame armor,flame armor,Armor_03,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0311,Normal,Armor,Myth,flame armor,flame armor,Armor_03,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0312,Normal,Armor,Myth1,flame armor,flame armor,Armor_03,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0313,Normal,Armor,Myth2,flame armor,flame armor,Armor_03,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0314,Normal,Armor,Myth3,flame armor,flame armor,Armor_03,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0401,Normal,Armor,Common,Skeleton's Armor,Skeleton's Armor,Armor_04,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0402,Normal,Armor,Uncommon,Skeleton's Armor,Skeleton's Armor,Armor_04,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0403,Normal,Armor,Rare,Skeleton's Armor,Skeleton's Armor,Armor_04,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0404,Normal,Armor,Epic,Skeleton's Armor,Skeleton's Armor,Armor_04,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0405,Normal,Armor,Epic1,Skeleton's Armor,Skeleton's Armor,Armor_04,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0406,Normal,Armor,Epic2,Skeleton's Armor,Skeleton's Armor,Armor_04,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0407,Normal,Armor,Legendary,Skeleton's Armor,Skeleton's Armor,Armor_04,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0408,Normal,Armor,Legendary1,Skeleton's Armor,Skeleton's Armor,Armor_04,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0409,Normal,Armor,Legendary2,Skeleton's Armor,Skeleton's Armor,Armor_04,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0410,Normal,Armor,Legendary3,Skeleton's Armor,Skeleton's Armor,Armor_04,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0411,Normal,Armor,Myth,Skeleton's Armor,Skeleton's Armor,Armor_04,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0412,Normal,Armor,Myth1,Skeleton's Armor,Skeleton's Armor,Armor_04,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0413,Normal,Armor,Myth2,Skeleton's Armor,Skeleton's Armor,Armor_04,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0414,Normal,Armor,Myth3,Skeleton's Armor,Skeleton's Armor,Armor_04,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0501,Normal,Armor,Common,iron armor,iron armor,Armor_05,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0502,Normal,Armor,Uncommon,iron armor,iron armor,Armor_05,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0503,Normal,Armor,Rare,iron armor,iron armor,Armor_05,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0504,Normal,Armor,Epic,iron armor,iron armor,Armor_05,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0505,Normal,Armor,Epic1,iron armor,iron armor,Armor_05,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0506,Normal,Armor,Epic2,iron armor,iron armor,Armor_05,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0507,Normal,Armor,Legendary,iron armor,iron armor,Armor_05,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0508,Normal,Armor,Legendary1,iron armor,iron armor,Armor_05,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0509,Normal,Armor,Legendary2,iron armor,iron armor,Armor_05,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0510,Normal,Armor,Legendary3,iron armor,iron armor,Armor_05,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0511,Normal,Armor,Myth,iron armor,iron armor,Armor_05,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0512,Normal,Armor,Myth1,iron armor,iron armor,Armor_05,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0513,Normal,Armor,Myth2,iron armor,iron armor,Armor_05,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0514,Normal,Armor,Myth3,iron armor,iron armor,Armor_05,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0601,Normal,Armor,Common,holy armor,holy armor,Armor_06,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0602,Normal,Armor,Uncommon,holy armor,holy armor,Armor_06,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0603,Normal,Armor,Rare,holy armor,holy armor,Armor_06,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0604,Normal,Armor,Epic,holy armor,holy armor,Armor_06,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0605,Normal,Armor,Epic1,holy armor,holy armor,Armor_06,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0606,Normal,Armor,Epic2,holy armor,holy armor,Armor_06,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0607,Normal,Armor,Legendary,holy armor,holy armor,Armor_06,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0608,Normal,Armor,Legendary1,holy armor,holy armor,Armor_06,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0609,Normal,Armor,Legendary2,holy armor,holy armor,Armor_06,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0610,Normal,Armor,Legendary3,holy armor,holy armor,Armor_06,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0611,Normal,Armor,Myth,holy armor,holy armor,Armor_06,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0612,Normal,Armor,Myth1,holy armor,holy armor,Armor_06,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0613,Normal,Armor,Myth2,holy armor,holy armor,Armor_06,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0614,Normal,Armor,Myth3,holy armor,holy armor,Armor_06,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0701,Normal,Armor,Common,Assassin's Armor,Assassin's Armor,Armor_07,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0702,Normal,Armor,Uncommon,Assassin's Armor,Assassin's Armor,Armor_07,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0703,Normal,Armor,Rare,Assassin's Armor,Assassin's Armor,Armor_07,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0704,Normal,Armor,Epic,Assassin's Armor,Assassin's Armor,Armor_07,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0705,Normal,Armor,Epic1,Assassin's Armor,Assassin's Armor,Armor_07,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0706,Normal,Armor,Epic2,Assassin's Armor,Assassin's Armor,Armor_07,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0707,Normal,Armor,Legendary,Assassin's Armor,Assassin's Armor,Armor_07,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0708,Normal,Armor,Legendary1,Assassin's Armor,Assassin's Armor,Armor_07,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0709,Normal,Armor,Legendary2,Assassin's Armor,Assassin's Armor,Armor_07,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0710,Normal,Armor,Legendary3,Assassin's Armor,Assassin's Armor,Armor_07,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0711,Normal,Armor,Myth,Assassin's Armor,Assassin's Armor,Armor_07,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0712,Normal,Armor,Myth1,Assassin's Armor,Assassin's Armor,Armor_07,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0713,Normal,Armor,Myth2,Assassin's Armor,Assassin's Armor,Armor_07,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0714,Normal,Armor,Myth3,Assassin's Armor,Assassin's Armor,Armor_07,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0801,Normal,Armor,Common,Lightning Armor,Lightning Armor,Armor_08,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0802,Normal,Armor,Uncommon,Lightning Armor,Lightning Armor,Armor_08,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0803,Normal,Armor,Rare,Lightning Armor,Lightning Armor,Armor_08,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0804,Normal,Armor,Epic,Lightning Armor,Lightning Armor,Armor_08,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0805,Normal,Armor,Epic1,Lightning Armor,Lightning Armor,Armor_08,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0806,Normal,Armor,Epic2,Lightning Armor,Lightning Armor,Armor_08,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0807,Normal,Armor,Legendary,Lightning Armor,Lightning Armor,Armor_08,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0808,Normal,Armor,Legendary1,Lightning Armor,Lightning Armor,Armor_08,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0809,Normal,Armor,Legendary2,Lightning Armor,Lightning Armor,Armor_08,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0810,Normal,Armor,Legendary3,Lightning Armor,Lightning Armor,Armor_08,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0811,Normal,Armor,Myth,Lightning Armor,Lightning Armor,Armor_08,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0812,Normal,Armor,Myth1,Lightning Armor,Lightning Armor,Armor_08,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0813,Normal,Armor,Myth2,Lightning Armor,Lightning Armor,Armor_08,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0814,Normal,Armor,Myth3,Lightning Armor,Lightning Armor,Armor_08,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA0901,Normal,Armor,Common,death armor,death armor,Armor_09,65,5,0,0,10,10001,10002,10003,10004,10005
+NA0902,Normal,Armor,Uncommon,death armor,death armor,Armor_09,91,8,0,0,20,10001,10002,10003,10004,10005
+NA0903,Normal,Armor,Rare,death armor,death armor,Armor_09,130,10,0,0,30,10001,10002,10003,10004,10005
+NA0904,Normal,Armor,Epic,death armor,death armor,Armor_09,260,15,0,0,40,10001,10002,10003,10004,10005
+NA0905,Normal,Armor,Epic1,death armor,death armor,Armor_09,286,20,0,0,50,10001,10002,10003,10004,10005
+NA0906,Normal,Armor,Epic2,death armor,death armor,Armor_09,358,22,0,0,60,10001,10002,10003,10004,10005
+NA0907,Normal,Armor,Legendary,death armor,death armor,Armor_09,429,26,0,0,70,10001,10002,10003,10004,10005
+NA0908,Normal,Armor,Legendary1,death armor,death armor,Armor_09,501,30,0,0,80,10001,10002,10003,10004,10005
+NA0909,Normal,Armor,Legendary2,death armor,death armor,Armor_09,572,34,0,0,90,10001,10002,10003,10004,10005
+NA0910,Normal,Armor,Legendary3,death armor,death armor,Armor_09,644,38,0,0,100,10001,10002,10003,10004,10005
+NA0911,Normal,Armor,Myth,death armor,death armor,Armor_09,715,41,0,0,110,10001,10002,10003,10004,10005
+NA0912,Normal,Armor,Myth1,death armor,death armor,Armor_09,975,45,0,0,120,10001,10002,10003,10004,10005
+NA0913,Normal,Armor,Myth2,death armor,death armor,Armor_09,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA0914,Normal,Armor,Myth3,death armor,death armor,Armor_09,1495,52,0,0,140,10001,10002,10003,10004,10005
+NA1001,Normal,Armor,Common,nature's armor,nature's armor,Armor_10,65,5,0,0,10,10001,10002,10003,10004,10005
+NA1002,Normal,Armor,Uncommon,nature's armor,nature's armor,Armor_10,91,8,0,0,20,10001,10002,10003,10004,10005
+NA1003,Normal,Armor,Rare,nature's armor,nature's armor,Armor_10,130,10,0,0,30,10001,10002,10003,10004,10005
+NA1004,Normal,Armor,Epic,nature's armor,nature's armor,Armor_10,260,15,0,0,40,10001,10002,10003,10004,10005
+NA1005,Normal,Armor,Epic1,nature's armor,nature's armor,Armor_10,286,20,0,0,50,10001,10002,10003,10004,10005
+NA1006,Normal,Armor,Epic2,nature's armor,nature's armor,Armor_10,358,22,0,0,60,10001,10002,10003,10004,10005
+NA1007,Normal,Armor,Legendary,nature's armor,nature's armor,Armor_10,429,26,0,0,70,10001,10002,10003,10004,10005
+NA1008,Normal,Armor,Legendary1,nature's armor,nature's armor,Armor_10,501,30,0,0,80,10001,10002,10003,10004,10005
+NA1009,Normal,Armor,Legendary2,nature's armor,nature's armor,Armor_10,572,34,0,0,90,10001,10002,10003,10004,10005
+NA1010,Normal,Armor,Legendary3,nature's armor,nature's armor,Armor_10,644,38,0,0,100,10001,10002,10003,10004,10005
+NA1011,Normal,Armor,Myth,nature's armor,nature's armor,Armor_10,715,41,0,0,110,10001,10002,10003,10004,10005
+NA1012,Normal,Armor,Myth1,nature's armor,nature's armor,Armor_10,975,45,0,0,120,10001,10002,10003,10004,10005
+NA1013,Normal,Armor,Myth2,nature's armor,nature's armor,Armor_10,1235,48,0,0,130,10001,10002,10003,10004,10005
+NA1014,Normal,Armor,Myth3,nature's armor,nature's armor,Armor_10,1495,52,0,0,140,10001,10002,10003,10004,10005
+NB0101,Normal,Boots,Common,boots of darkness,boots of darkness,Boots_01,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0102,Normal,Boots,Uncommon,boots of darkness,boots of darkness,Boots_01,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0103,Normal,Boots,Rare,boots of darkness,boots of darkness,Boots_01,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0104,Normal,Boots,Epic,boots of darkness,boots of darkness,Boots_01,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0105,Normal,Boots,Epic1,boots of darkness,boots of darkness,Boots_01,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0106,Normal,Boots,Epic2,boots of darkness,boots of darkness,Boots_01,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0107,Normal,Boots,Legendary,boots of darkness,boots of darkness,Boots_01,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0108,Normal,Boots,Legendary1,boots of darkness,boots of darkness,Boots_01,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0109,Normal,Boots,Legendary2,boots of darkness,boots of darkness,Boots_01,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0110,Normal,Boots,Legendary3,boots of darkness,boots of darkness,Boots_01,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0111,Normal,Boots,Myth,boots of darkness,boots of darkness,Boots_01,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0112,Normal,Boots,Myth1,boots of darkness,boots of darkness,Boots_01,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0113,Normal,Boots,Myth2,boots of darkness,boots of darkness,Boots_01,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0114,Normal,Boots,Myth3,boots of darkness,boots of darkness,Boots_01,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0201,Normal,Boots,Common,heavenly boots,heavenly boots,Boots_02,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0202,Normal,Boots,Uncommon,heavenly boots,heavenly boots,Boots_02,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0203,Normal,Boots,Rare,heavenly boots,heavenly boots,Boots_02,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0204,Normal,Boots,Epic,heavenly boots,heavenly boots,Boots_02,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0205,Normal,Boots,Epic1,heavenly boots,heavenly boots,Boots_02,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0206,Normal,Boots,Epic2,heavenly boots,heavenly boots,Boots_02,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0207,Normal,Boots,Legendary,heavenly boots,heavenly boots,Boots_02,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0208,Normal,Boots,Legendary1,heavenly boots,heavenly boots,Boots_02,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0209,Normal,Boots,Legendary2,heavenly boots,heavenly boots,Boots_02,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0210,Normal,Boots,Legendary3,heavenly boots,heavenly boots,Boots_02,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0211,Normal,Boots,Myth,heavenly boots,heavenly boots,Boots_02,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0212,Normal,Boots,Myth1,heavenly boots,heavenly boots,Boots_02,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0213,Normal,Boots,Myth2,heavenly boots,heavenly boots,Boots_02,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0214,Normal,Boots,Myth3,heavenly boots,heavenly boots,Boots_02,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0301,Normal,Boots,Common,Boots of Flame,Boots of Flame,Boots_03,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0302,Normal,Boots,Uncommon,Boots of Flame,Boots of Flame,Boots_03,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0303,Normal,Boots,Rare,Boots of Flame,Boots of Flame,Boots_03,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0304,Normal,Boots,Epic,Boots of Flame,Boots of Flame,Boots_03,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0305,Normal,Boots,Epic1,Boots of Flame,Boots of Flame,Boots_03,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0306,Normal,Boots,Epic2,Boots of Flame,Boots of Flame,Boots_03,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0307,Normal,Boots,Legendary,Boots of Flame,Boots of Flame,Boots_03,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0308,Normal,Boots,Legendary1,Boots of Flame,Boots of Flame,Boots_03,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0309,Normal,Boots,Legendary2,Boots of Flame,Boots of Flame,Boots_03,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0310,Normal,Boots,Legendary3,Boots of Flame,Boots of Flame,Boots_03,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0311,Normal,Boots,Myth,Boots of Flame,Boots of Flame,Boots_03,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0312,Normal,Boots,Myth1,Boots of Flame,Boots of Flame,Boots_03,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0313,Normal,Boots,Myth2,Boots of Flame,Boots of Flame,Boots_03,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0314,Normal,Boots,Myth3,Boots of Flame,Boots of Flame,Boots_03,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0401,Normal,Boots,Common,Skeleton Boots,Skeleton Boots,Boots_04,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0402,Normal,Boots,Uncommon,Skeleton Boots,Skeleton Boots,Boots_04,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0403,Normal,Boots,Rare,Skeleton Boots,Skeleton Boots,Boots_04,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0404,Normal,Boots,Epic,Skeleton Boots,Skeleton Boots,Boots_04,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0405,Normal,Boots,Epic1,Skeleton Boots,Skeleton Boots,Boots_04,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0406,Normal,Boots,Epic2,Skeleton Boots,Skeleton Boots,Boots_04,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0407,Normal,Boots,Legendary,Skeleton Boots,Skeleton Boots,Boots_04,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0408,Normal,Boots,Legendary1,Skeleton Boots,Skeleton Boots,Boots_04,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0409,Normal,Boots,Legendary2,Skeleton Boots,Skeleton Boots,Boots_04,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0410,Normal,Boots,Legendary3,Skeleton Boots,Skeleton Boots,Boots_04,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0411,Normal,Boots,Myth,Skeleton Boots,Skeleton Boots,Boots_04,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0412,Normal,Boots,Myth1,Skeleton Boots,Skeleton Boots,Boots_04,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0413,Normal,Boots,Myth2,Skeleton Boots,Skeleton Boots,Boots_04,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0414,Normal,Boots,Myth3,Skeleton Boots,Skeleton Boots,Boots_04,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0501,Normal,Boots,Common,Ironclad Boots,Ironclad Boots,Boots_05,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0502,Normal,Boots,Uncommon,Ironclad Boots,Ironclad Boots,Boots_05,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0503,Normal,Boots,Rare,Ironclad Boots,Ironclad Boots,Boots_05,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0504,Normal,Boots,Epic,Ironclad Boots,Ironclad Boots,Boots_05,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0505,Normal,Boots,Epic1,Ironclad Boots,Ironclad Boots,Boots_05,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0506,Normal,Boots,Epic2,Ironclad Boots,Ironclad Boots,Boots_05,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0507,Normal,Boots,Legendary,Ironclad Boots,Ironclad Boots,Boots_05,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0508,Normal,Boots,Legendary1,Ironclad Boots,Ironclad Boots,Boots_05,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0509,Normal,Boots,Legendary2,Ironclad Boots,Ironclad Boots,Boots_05,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0510,Normal,Boots,Legendary3,Ironclad Boots,Ironclad Boots,Boots_05,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0511,Normal,Boots,Myth,Ironclad Boots,Ironclad Boots,Boots_05,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0512,Normal,Boots,Myth1,Ironclad Boots,Ironclad Boots,Boots_05,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0513,Normal,Boots,Myth2,Ironclad Boots,Ironclad Boots,Boots_05,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0514,Normal,Boots,Myth3,Ironclad Boots,Ironclad Boots,Boots_05,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0601,Normal,Boots,Common,divine boots,divine boots,Boots_06,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0602,Normal,Boots,Uncommon,divine boots,divine boots,Boots_06,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0603,Normal,Boots,Rare,divine boots,divine boots,Boots_06,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0604,Normal,Boots,Epic,divine boots,divine boots,Boots_06,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0605,Normal,Boots,Epic1,divine boots,divine boots,Boots_06,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0606,Normal,Boots,Epic2,divine boots,divine boots,Boots_06,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0607,Normal,Boots,Legendary,divine boots,divine boots,Boots_06,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0608,Normal,Boots,Legendary1,divine boots,divine boots,Boots_06,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0609,Normal,Boots,Legendary2,divine boots,divine boots,Boots_06,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0610,Normal,Boots,Legendary3,divine boots,divine boots,Boots_06,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0611,Normal,Boots,Myth,divine boots,divine boots,Boots_06,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0612,Normal,Boots,Myth1,divine boots,divine boots,Boots_06,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0613,Normal,Boots,Myth2,divine boots,divine boots,Boots_06,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0614,Normal,Boots,Myth3,divine boots,divine boots,Boots_06,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0701,Normal,Boots,Common,Assassin's Boots,Assassin's Boots,Boots_07,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0702,Normal,Boots,Uncommon,Assassin's Boots,Assassin's Boots,Boots_07,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0703,Normal,Boots,Rare,Assassin's Boots,Assassin's Boots,Boots_07,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0704,Normal,Boots,Epic,Assassin's Boots,Assassin's Boots,Boots_07,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0705,Normal,Boots,Epic1,Assassin's Boots,Assassin's Boots,Boots_07,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0706,Normal,Boots,Epic2,Assassin's Boots,Assassin's Boots,Boots_07,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0707,Normal,Boots,Legendary,Assassin's Boots,Assassin's Boots,Boots_07,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0708,Normal,Boots,Legendary1,Assassin's Boots,Assassin's Boots,Boots_07,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0709,Normal,Boots,Legendary2,Assassin's Boots,Assassin's Boots,Boots_07,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0710,Normal,Boots,Legendary3,Assassin's Boots,Assassin's Boots,Boots_07,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0711,Normal,Boots,Myth,Assassin's Boots,Assassin's Boots,Boots_07,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0712,Normal,Boots,Myth1,Assassin's Boots,Assassin's Boots,Boots_07,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0713,Normal,Boots,Myth2,Assassin's Boots,Assassin's Boots,Boots_07,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0714,Normal,Boots,Myth3,Assassin's Boots,Assassin's Boots,Boots_07,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0801,Normal,Boots,Common,Boots of Lightning,Boots of Lightning,Boots_08,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0802,Normal,Boots,Uncommon,Boots of Lightning,Boots of Lightning,Boots_08,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0803,Normal,Boots,Rare,Boots of Lightning,Boots of Lightning,Boots_08,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0804,Normal,Boots,Epic,Boots of Lightning,Boots of Lightning,Boots_08,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0805,Normal,Boots,Epic1,Boots of Lightning,Boots of Lightning,Boots_08,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0806,Normal,Boots,Epic2,Boots of Lightning,Boots of Lightning,Boots_08,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0807,Normal,Boots,Legendary,Boots of Lightning,Boots of Lightning,Boots_08,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0808,Normal,Boots,Legendary1,Boots of Lightning,Boots of Lightning,Boots_08,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0809,Normal,Boots,Legendary2,Boots of Lightning,Boots of Lightning,Boots_08,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0810,Normal,Boots,Legendary3,Boots of Lightning,Boots of Lightning,Boots_08,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0811,Normal,Boots,Myth,Boots of Lightning,Boots of Lightning,Boots_08,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0812,Normal,Boots,Myth1,Boots of Lightning,Boots of Lightning,Boots_08,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0813,Normal,Boots,Myth2,Boots of Lightning,Boots of Lightning,Boots_08,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0814,Normal,Boots,Myth3,Boots of Lightning,Boots of Lightning,Boots_08,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB0901,Normal,Boots,Common,boots of death,boots of death,Boots_09,49,4,0,0,10,10001,10002,10003,10004,10005
+NB0902,Normal,Boots,Uncommon,boots of death,boots of death,Boots_09,69,6,0,0,20,10001,10002,10003,10004,10005
+NB0903,Normal,Boots,Rare,boots of death,boots of death,Boots_09,98,8,0,0,30,10001,10002,10003,10004,10005
+NB0904,Normal,Boots,Epic,boots of death,boots of death,Boots_09,195,11,0,0,40,10001,10002,10003,10004,10005
+NB0905,Normal,Boots,Epic1,boots of death,boots of death,Boots_09,215,15,0,0,50,10001,10002,10003,10004,10005
+NB0906,Normal,Boots,Epic2,boots of death,boots of death,Boots_09,268,16,0,0,60,10001,10002,10003,10004,10005
+NB0907,Normal,Boots,Legendary,boots of death,boots of death,Boots_09,322,19,0,0,70,10001,10002,10003,10004,10005
+NB0908,Normal,Boots,Legendary1,boots of death,boots of death,Boots_09,376,22,0,0,80,10001,10002,10003,10004,10005
+NB0909,Normal,Boots,Legendary2,boots of death,boots of death,Boots_09,429,25,0,0,90,10001,10002,10003,10004,10005
+NB0910,Normal,Boots,Legendary3,boots of death,boots of death,Boots_09,482,28,0,0,100,10001,10002,10003,10004,10005
+NB0911,Normal,Boots,Myth,boots of death,boots of death,Boots_09,537,30,0,0,110,10001,10002,10003,10004,10005
+NB0912,Normal,Boots,Myth1,boots of death,boots of death,Boots_09,732,33,0,0,120,10001,10002,10003,10004,10005
+NB0913,Normal,Boots,Myth2,boots of death,boots of death,Boots_09,927,36,0,0,130,10001,10002,10003,10004,10005
+NB0914,Normal,Boots,Myth3,boots of death,boots of death,Boots_09,1122,40,0,0,140,10001,10002,10003,10004,10005
+NB1001,Normal,Boots,Common,boots of nature,boots of nature,Boots_10,49,4,0,0,10,10001,10002,10003,10004,10005
+NB1002,Normal,Boots,Uncommon,boots of nature,boots of nature,Boots_10,69,6,0,0,20,10001,10002,10003,10004,10005
+NB1003,Normal,Boots,Rare,boots of nature,boots of nature,Boots_10,98,8,0,0,30,10001,10002,10003,10004,10005
+NB1004,Normal,Boots,Epic,boots of nature,boots of nature,Boots_10,195,11,0,0,40,10001,10002,10003,10004,10005
+NB1005,Normal,Boots,Epic1,boots of nature,boots of nature,Boots_10,215,15,0,0,50,10001,10002,10003,10004,10005
+NB1006,Normal,Boots,Epic2,boots of nature,boots of nature,Boots_10,268,16,0,0,60,10001,10002,10003,10004,10005
+NB1007,Normal,Boots,Legendary,boots of nature,boots of nature,Boots_10,322,19,0,0,70,10001,10002,10003,10004,10005
+NB1008,Normal,Boots,Legendary1,boots of nature,boots of nature,Boots_10,376,22,0,0,80,10001,10002,10003,10004,10005
+NB1009,Normal,Boots,Legendary2,boots of nature,boots of nature,Boots_10,429,25,0,0,90,10001,10002,10003,10004,10005
+NB1010,Normal,Boots,Legendary3,boots of nature,boots of nature,Boots_10,482,28,0,0,100,10001,10002,10003,10004,10005
+NB1011,Normal,Boots,Myth,boots of nature,boots of nature,Boots_10,537,30,0,0,110,10001,10002,10003,10004,10005
+NB1012,Normal,Boots,Myth1,boots of nature,boots of nature,Boots_10,732,33,0,0,120,10001,10002,10003,10004,10005
+NB1013,Normal,Boots,Myth2,boots of nature,boots of nature,Boots_10,927,36,0,0,130,10001,10002,10003,10004,10005
+NB1014,Normal,Boots,Myth3,boots of nature,boots of nature,Boots_10,1122,40,0,0,140,10001,10002,10003,10004,10005
+SW0101,Special,Weapon,Epic,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,98,13,40,10001,10002,10003,10004,10005
+SW0102,Special,Weapon,Epic1,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,117,15,50,10001,10002,10003,10004,10005
+SW0103,Special,Weapon,Epic2,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,137,16,60,10001,10002,10003,10004,10005
+SW0104,Special,Weapon,Legendary,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,257,19,70,10001,10002,10003,10004,10005
+SW0105,Special,Weapon,Legendary1,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,300,22,80,10001,10002,10003,10004,10005
+SW0106,Special,Weapon,Legendary2,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,343,25,90,10001,10002,10003,10004,10005
+SW0107,Special,Weapon,Legendary3,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,386,28,100,10001,10002,10003,10004,10005
+SW0108,Special,Weapon,Myth,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,451,31,110,10001,10002,10003,10004,10005
+SW0109,Special,Weapon,Myth1,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,619,34,120,10001,10002,10003,10004,10005
+SW0110,Special,Weapon,Myth2,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,784,38,130,10001,10002,10003,10004,10005
+SW0111,Special,Weapon,Myth3,Ash's Bow,Ash's Bow,Special_Weapon_01,0,0,953,50,140,10001,10002,10003,10004,10005
+SG0112,Special,Gloves,Epic,hunter's glove,hunter's glove,Special_Gloves_01,0,0,78,9,40,10001,10002,10003,10004,10005
+SG0113,Special,Gloves,Epic1,hunter's glove,hunter's glove,Special_Gloves_01,0,0,94,10,50,10001,10002,10003,10004,10005
+SG0114,Special,Gloves,Epic2,hunter's glove,hunter's glove,Special_Gloves_01,0,0,109,11,60,10001,10002,10003,10004,10005
+SG0101,Special,Gloves,Legendary,hunter's glove,hunter's glove,Special_Gloves_01,0,0,207,15,70,10001,10002,10003,10004,10005
+SG0102,Special,Gloves,Legendary1,hunter's glove,hunter's glove,Special_Gloves_01,0,0,241,16,80,10001,10002,10003,10004,10005
+SG0103,Special,Gloves,Legendary2,hunter's glove,hunter's glove,Special_Gloves_01,0,0,276,18,90,10001,10002,10003,10004,10005
+SG0104,Special,Gloves,Legendary3,hunter's glove,hunter's glove,Special_Gloves_01,0,0,308,21,100,10001,10002,10003,10004,10005
+SG0105,Special,Gloves,Myth,hunter's glove,hunter's glove,Special_Gloves_01,0,0,361,22,110,10001,10002,10003,10004,10005
+SG0106,Special,Gloves,Myth1,hunter's glove,hunter's glove,Special_Gloves_01,0,0,495,24,120,10001,10002,10003,10004,10005
+SG0107,Special,Gloves,Myth2,hunter's glove,hunter's glove,Special_Gloves_01,0,0,628,26,130,10001,10002,10003,10004,10005
+SG0108,Special,Gloves,Myth3,hunter's glove,hunter's glove,Special_Gloves_01,0,0,762,29,140,10001,10002,10003,10004,10005
+SR0109,Special,Ring,Epic,hunter's ring,hunter's ring,Special_Ring_01,0,0,69,10,40,10001,10002,10003,10004,10005
+SR0110,Special,Ring,Epic1,hunter's ring,hunter's ring,Special_Ring_01,0,0,82,11,50,10001,10002,10003,10004,10005
+SR0111,Special,Ring,Epic2,hunter's ring,hunter's ring,Special_Ring_01,0,0,96,15,60,10001,10002,10003,10004,10005
+SR0112,Special,Ring,Legendary,hunter's ring,hunter's ring,Special_Ring_01,0,0,179,16,70,10001,10002,10003,10004,10005
+SR0113,Special,Ring,Legendary1,hunter's ring,hunter's ring,Special_Ring_01,0,0,211,19,80,10001,10002,10003,10004,10005
+SR0114,Special,Ring,Legendary2,hunter's ring,hunter's ring,Special_Ring_01,0,0,241,22,90,10001,10002,10003,10004,10005
+SR0101,Special,Ring,Legendary3,hunter's ring,hunter's ring,Special_Ring_01,0,0,272,24,100,10001,10002,10003,10004,10005
+SR0102,Special,Ring,Myth,hunter's ring,hunter's ring,Special_Ring_01,0,0,316,26,110,10001,10002,10003,10004,10005
+SR0103,Special,Ring,Myth1,hunter's ring,hunter's ring,Special_Ring_01,0,0,433,29,120,10001,10002,10003,10004,10005
+SR0104,Special,Ring,Myth2,hunter's ring,hunter's ring,Special_Ring_01,0,0,550,32,130,10001,10002,10003,10004,10005
+SR0105,Special,Ring,Myth3,hunter's ring,hunter's ring,Special_Ring_01,0,0,667,34,140,10001,10002,10003,10004,10005
+SH0106,Special,Helmet,Epic,hunter's helmet,hunter's helmet,Special_Helmet_01,332,18,0,0,40,10001,10002,10003,10004,10005
+SH0107,Special,Helmet,Epic1,hunter's helmet,hunter's helmet,Special_Helmet_01,322,22,0,0,50,10001,10002,10003,10004,10005
+SH0108,Special,Helmet,Epic2,hunter's helmet,hunter's helmet,Special_Helmet_01,402,24,0,0,60,10001,10002,10003,10004,10005
+SH0109,Special,Helmet,Legendary,hunter's helmet,hunter's helmet,Special_Helmet_01,484,28,0,0,70,10001,10002,10003,10004,10005
+SH0110,Special,Helmet,Legendary1,hunter's helmet,hunter's helmet,Special_Helmet_01,564,33,0,0,80,10001,10002,10003,10004,10005
+SH0111,Special,Helmet,Legendary2,hunter's helmet,hunter's helmet,Special_Helmet_01,644,37,0,0,90,10001,10002,10003,10004,10005
+SH0112,Special,Helmet,Legendary3,hunter's helmet,hunter's helmet,Special_Helmet_01,724,42,0,0,100,10001,10002,10003,10004,10005
+SH0113,Special,Helmet,Myth,hunter's helmet,hunter's helmet,Special_Helmet_01,806,45,0,0,110,10001,10002,10003,10004,10005
+SH0114,Special,Helmet,Myth1,hunter's helmet,hunter's helmet,Special_Helmet_01,1096,49,0,0,120,10001,10002,10003,10004,10005
+SH0101,Special,Helmet,Myth2,hunter's helmet,hunter's helmet,Special_Helmet_01,1386,53,0,0,130,10001,10002,10003,10004,10005
+SH0102,Special,Helmet,Myth3,hunter's helmet,hunter's helmet,Special_Helmet_01,1690,60,0,0,140,10001,10002,10003,10004,10005
+SA0103,Special,Armor,Epic,hunter's armor,hunter's armor,Special_Armor_01,390,22,0,0,40,10001,10002,10003,10004,10005
+SA0104,Special,Armor,Epic1,hunter's armor,hunter's armor,Special_Armor_01,429,30,0,0,50,10001,10002,10003,10004,10005
+SA0105,Special,Armor,Epic2,hunter's armor,hunter's armor,Special_Armor_01,537,33,0,0,60,10001,10002,10003,10004,10005
+SA0106,Special,Armor,Legendary,hunter's armor,hunter's armor,Special_Armor_01,644,39,0,0,70,10001,10002,10003,10004,10005
+SA0107,Special,Armor,Legendary1,hunter's armor,hunter's armor,Special_Armor_01,751,44,0,0,80,10001,10002,10003,10004,10005
+SA0108,Special,Armor,Legendary2,hunter's armor,hunter's armor,Special_Armor_01,858,51,0,0,90,10001,10002,10003,10004,10005
+SA0109,Special,Armor,Legendary3,hunter's armor,hunter's armor,Special_Armor_01,966,57,0,0,100,10001,10002,10003,10004,10005
+SA0110,Special,Armor,Myth,hunter's armor,hunter's armor,Special_Armor_01,1073,61,0,0,110,10001,10002,10003,10004,10005
+SA0111,Special,Armor,Myth1,hunter's armor,hunter's armor,Special_Armor_01,1476,68,0,0,120,10001,10002,10003,10004,10005
+SA0112,Special,Armor,Myth2,hunter's armor,hunter's armor,Special_Armor_01,1879,73,0,0,130,10001,10002,10003,10004,10005
+SA0113,Special,Armor,Myth3,hunter's armor,hunter's armor,Special_Armor_01,2282,79,0,0,140,10001,10002,10003,10004,10005
+SB0114,Special,Boots,Epic,hunter's boots,hunter's boots,Special_Boots_01,332,18,0,0,40,10001,10002,10003,10004,10005
+SB0101,Special,Boots,Epic1,hunter's boots,hunter's boots,Special_Boots_01,322,22,0,0,50,10001,10002,10003,10004,10005
+SB0102,Special,Boots,Epic2,hunter's boots,hunter's boots,Special_Boots_01,402,24,0,0,60,10001,10002,10003,10004,10005
+SB0103,Special,Boots,Legendary,hunter's boots,hunter's boots,Special_Boots_01,484,28,0,0,70,10001,10002,10003,10004,10005
+SB0104,Special,Boots,Legendary1,hunter's boots,hunter's boots,Special_Boots_01,564,33,0,0,80,10001,10002,10003,10004,10005
+SB0105,Special,Boots,Legendary2,hunter's boots,hunter's boots,Special_Boots_01,644,37,0,0,90,10001,10002,10003,10004,10005
+SB0106,Special,Boots,Legendary3,hunter's boots,hunter's boots,Special_Boots_01,724,42,0,0,100,10001,10002,10003,10004,10005
+SB0107,Special,Boots,Myth,hunter's boots,hunter's boots,Special_Boots_01,806,45,0,0,110,10001,10002,10003,10004,10005
+SB0108,Special,Boots,Myth1,hunter's boots,hunter's boots,Special_Boots_01,1096,49,0,0,120,10001,10002,10003,10004,10005
+SB0109,Special,Boots,Myth2,hunter's boots,hunter's boots,Special_Boots_01,1386,53,0,0,130,10001,10002,10003,10004,10005
+SB0110,Special,Boots,Myth3,hunter's boots,hunter's boots,Special_Boots_01,1690,60,0,0,140,10001,10002,10003,10004,10005
