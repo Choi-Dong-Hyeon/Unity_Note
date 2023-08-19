@@ -1,15 +1,20 @@
 using System;
+using UnityEngine;
 
 public class InputManager
 {
 
-    public Action<Define.MouseEvent> OnMouseAction;
+    public Action OnMouseAction;
 
     public void UpdateMouse()
     {
         if (OnMouseAction != null)
         {
-            OnMouseAction.Invoke(Define.MouseEvent.Click);
+            if (Input.GetMouseButtonDown(0))
+            {
+                OnMouseAction.Invoke();
+
+            }
         }
     }
 }
