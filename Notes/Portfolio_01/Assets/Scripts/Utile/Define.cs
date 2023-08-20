@@ -1,6 +1,5 @@
 public class Define
 {
-  
     public enum State
     {
         Idle,
@@ -18,14 +17,21 @@ public class Define
         Npc,
     }
 
-
     public enum MouseEvent
     {
         Click,
         Press,
     }
 
+    public enum CameraMode
+    {
+        Normal,
+    }
 
-
+    public enum ItemType
+    {
+        Use,
+        Equipment,
+    }
 
 }

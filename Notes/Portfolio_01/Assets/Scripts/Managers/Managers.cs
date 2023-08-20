@@ -5,6 +5,8 @@ public class Managers : MonoBehaviour
 {
     static Managers instance;
     public static Managers Instance { get { Init(); return instance; } }
+   
+    
     InputManager input = new InputManager();
     public InputManager Input { get { return Instance.input; } }
 
@@ -49,8 +51,6 @@ public class Managers : MonoBehaviour
     {
         input.UpdateMouse();
     }
-
-
 
 
 }

@@ -13,8 +13,10 @@ public class InputManager
             if (Input.GetMouseButtonDown(0))
             {
                 OnMouseAction.Invoke();
-
             }
         }
     }
+
+
+
 }

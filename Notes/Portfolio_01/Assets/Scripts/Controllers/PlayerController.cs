@@ -15,9 +15,10 @@ public class PlayerController : BaseController
     protected override void IdleState()
     {
         base.IdleState();
-        Debug.Log("aa");
-
     }
+
+
+
 
     protected override void RunState()
     {
@@ -26,10 +27,12 @@ public class PlayerController : BaseController
 
         if (_moveDir.magnitude > 0.3f)
         {
-            if (_moveDir.magnitude <= 0.3f) _state = Define.State.Idle;
-
             transform.position += _moveDir.normalized * Time.deltaTime * 2f;
         }
+        else _state = Define.State.Idle;
+
+
+
 
     }
 
