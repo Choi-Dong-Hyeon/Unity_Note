@@ -354,6 +354,7 @@
 "Assets/Scripts/Managers/InputManager.cs"
 "Assets/Scripts/Managers/Managers.cs"
 "Assets/Scripts/Managers/ResourceManager.cs"
+"Assets/Scripts/UI/BaseUI.cs"
 "Assets/Scripts/UI/Popup/Inventory/Item.cs"
 "Assets/Scripts/Utile/Define.cs"
 -langversion:9.0
