@@ -5,15 +5,16 @@ public class Managers : MonoBehaviour
 {
     static Managers instance;
     public static Managers Instance { get { Init(); return instance; } }
-   
-    
+
+
     InputManager input = new InputManager();
     public InputManager Input { get { return Instance.input; } }
 
     ResourceManager resource = new ResourceManager();
     public ResourceManager Resource { get { return Instance.resource; } }
 
-
+    UIManager ui = new UIManager();
+    public UIManager UI { get { return Instance.ui; } }
 
 
 
