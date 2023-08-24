@@ -10,6 +10,13 @@ public class PlayerController : BaseController
     {
         base.Init();
         Managers.Instance.Input.OnMouseAction += OnMouseEvent;
+
+        for (int i = 0; i < 10; i++)
+        {
+
+            Managers.Instance.UI.ShowPopupUI<Buttona>("Buttona");
+        }
+
     }
 
     protected override void IdleState()

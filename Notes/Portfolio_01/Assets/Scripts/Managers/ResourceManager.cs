@@ -9,16 +9,6 @@ public class ResourceManager
     public T Load<T>(string path) where T : Object
     {
         T original = Resources.Load<T>(path);
-
-        if (_dictionary.ContainsKey(original.name))
-        {
-            return _dictionary[original.name] as T;
-        }
-        else
-        {
-            _dictionary.Add(original.name, original);
-        }
-
         return original;
     }
 
@@ -35,14 +25,18 @@ public class ResourceManager
         {
             return _dictionary[go.name] as T;
         }
+        else
+        {
+            _dictionary.Add(go.name, go);
+        }
 
         return go;
     }
 
 
-    public void Destroy<T>(T go) where T : Object
+    public void Destroy(GameObject go)
     {
-        Object.Destroy(go);
+        Object.Destroy(go.gameObject);
     }
 
 }
