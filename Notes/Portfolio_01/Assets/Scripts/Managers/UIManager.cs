@@ -21,7 +21,6 @@ public class UIManager
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
     }
 
-
     Stack<UI_Popup> stack = new Stack<UI_Popup>();
 
     public T ShowPopupUI<T>(string name = null) where T : UI_Popup
@@ -34,16 +33,16 @@ public class UIManager
             root = new GameObject { name = "@UI_Root" };
 
         GameObject go = Managers.Instance.Resource.Instantiate<T>($"UI/Popup/{name}", root.transform).gameObject;
-
         T popup = go.GetComponent<T>();
 
         if (popup == null)
             popup = go.AddComponent<T>();
 
         stack.Push(popup);
-
         return popup;
     }
+
+
 
     public T ShowSceneUI<T>(string name = null) where T : UI_Scene
     {
@@ -63,7 +62,6 @@ public class UIManager
 
         return scene;
     }
-
 
     public void ClosePopupUI()
     {
