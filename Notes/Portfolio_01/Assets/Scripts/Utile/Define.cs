@@ -28,6 +28,14 @@ public class Define
         Normal,
     }
 
+    public enum Scenes
+    {
+        UnKnown,
+        Login,
+        Lobby,
+        Game,
+    }
+
     public enum ItemType
     {
         Use,

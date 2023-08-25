@@ -30,14 +30,7 @@ public class Managers : MonoBehaviour
             }
             instance = go.GetComponent<Managers>();
 
-            EventSystem evt = GameObject.FindObjectOfType<EventSystem>();
-            if (evt == null)
-            {
-                evt = Instance.Resource.Instantiate<EventSystem>("@EventSystem");
-
-            }
             DontDestroyOnLoad(go);
-            DontDestroyOnLoad(evt);
         }
     }
 
