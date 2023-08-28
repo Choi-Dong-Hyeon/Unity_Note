@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class BaseScene : MonoBehaviour
 {
-    protected Define.Scenes _scene = Define.Scenes.UnKnown;
+    protected Define.Scene _scene = Define.Scene.UnKnown;
 
 
     private void Awake()
@@ -21,6 +21,6 @@ public class BaseScene : MonoBehaviour
         DontDestroyOnLoad(evt);
     }
 
-    protected virtual void Clear() { }
+    public virtual void Clear() { }
 
 }

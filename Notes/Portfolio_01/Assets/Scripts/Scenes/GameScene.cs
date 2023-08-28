@@ -5,10 +5,10 @@ public class GameScene : BaseScene
     protected override void Init()
     {
         base.Init();
-        _scene = Define.Scenes.Game;
+        _scene = Define.Scene.GameScene;
     }
 
-    protected override void Clear()
+    public override void Clear()
     {
         base.Clear();
     }

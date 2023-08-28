@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Managers : MonoBehaviour
 {
@@ -15,6 +14,9 @@ public class Managers : MonoBehaviour
 
     UIManager ui = new UIManager();
     public UIManager UI { get { return Instance.ui; } }
+
+    SceneManagerEx scene = new SceneManagerEx();
+    public SceneManagerEx Scene { get { return Instance.scene; } }
 
 
 
