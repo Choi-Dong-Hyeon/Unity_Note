@@ -356,6 +356,7 @@
 "Assets/Scripts/Managers/Managers.cs"
 "Assets/Scripts/Managers/ResourceManager.cs"
 "Assets/Scripts/Managers/SceneManagerEx.cs"
+"Assets/Scripts/Managers/SoundManager.cs"
 "Assets/Scripts/Managers/UIManager.cs"
 "Assets/Scripts/Scenes/BaseScene.cs"
 "Assets/Scripts/Scenes/GameScene.cs"

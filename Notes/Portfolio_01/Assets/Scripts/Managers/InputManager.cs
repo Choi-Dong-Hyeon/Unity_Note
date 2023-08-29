@@ -18,4 +18,10 @@ public class InputManager
             }
         }
     }
+
+    public void Clear()
+    {
+        OnMouseAction = null;
+    }
+
 }

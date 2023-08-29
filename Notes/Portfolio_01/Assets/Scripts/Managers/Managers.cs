@@ -18,6 +18,8 @@ public class Managers : MonoBehaviour
     SceneManagerEx scene = new SceneManagerEx();
     public SceneManagerEx Scene { get { return Instance.scene; } }
 
+    SoundManager sound = new SoundManager();
+    public SoundManager Sound { get { return Instance.sound; } }
 
 
     static void Init()
@@ -31,11 +33,19 @@ public class Managers : MonoBehaviour
                 go.AddComponent<Managers>();
             }
             instance = go.GetComponent<Managers>();
-
             DontDestroyOnLoad(go);
+            instance.sound.Init();
         }
     }
 
+
+    public void Clear()
+    {
+        input.Clear();
+        ui.Clear();
+        scene.Clear();
+        sound.Clear();
+    }
 
     private void Start()
     {

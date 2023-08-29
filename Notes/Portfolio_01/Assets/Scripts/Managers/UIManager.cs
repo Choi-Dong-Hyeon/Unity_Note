@@ -71,4 +71,10 @@ public class UIManager
         _order--;
     }
 
+
+    public void Clear()
+    {
+        stack.Clear();
+    }
+
 }

@@ -8,6 +8,13 @@ public class Define
         Die,
     }
 
+    public enum Sound
+    {
+        Bgm,
+        Effect,
+        Count,
+    }
+
     public enum Layer
     {
         Ground = 6,

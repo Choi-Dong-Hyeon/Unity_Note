@@ -21,6 +21,6 @@ public class BaseScene : MonoBehaviour
         DontDestroyOnLoad(evt);
     }
 
-    public virtual void Clear() { }
+    public virtual void Clear() {  }
 
 }
