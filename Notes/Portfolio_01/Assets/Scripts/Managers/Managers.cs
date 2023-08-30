@@ -5,7 +5,6 @@ public class Managers : MonoBehaviour
     static Managers instance;
     public static Managers Instance { get { Init(); return instance; } }
 
-
     InputManager input = new InputManager();
     public InputManager Input { get { return Instance.input; } }
 
@@ -21,6 +20,8 @@ public class Managers : MonoBehaviour
     SoundManager sound = new SoundManager();
     public SoundManager Sound { get { return Instance.sound; } }
 
+    DataManager data = new DataManager();
+    public DataManager Data { get { return Instance.data; } }
 
     static void Init()
     {
@@ -38,7 +39,6 @@ public class Managers : MonoBehaviour
         }
     }
 
-
     public void Clear()
     {
         input.Clear();
@@ -52,11 +52,9 @@ public class Managers : MonoBehaviour
         Init();
     }
 
-
     void Update()
     {
         input.UpdateMouse();
     }
-
 
 }

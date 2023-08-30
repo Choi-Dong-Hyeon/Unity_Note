@@ -1,6 +1,4 @@
 
-using UnityEngine;
-
 public class LoginScene : BaseScene
 {
 
@@ -8,10 +6,7 @@ public class LoginScene : BaseScene
     {
         base.Init();
         _scene = Define.Scene.LoginScene;
-        Managers.Instance.Sound.Play(Define.Sound.Effect, "univ0001");
-        Managers.Instance.Sound.Play(Define.Sound.Effect, "univ0001");
-        Managers.Instance.Sound.Play(Define.Sound.Effect, "univ0001");
-        Managers.Instance.Sound.Play(Define.Sound.Effect, "univ0001");
+        Managers.Instance.Data.Init();
     }
 
     public override void Clear()

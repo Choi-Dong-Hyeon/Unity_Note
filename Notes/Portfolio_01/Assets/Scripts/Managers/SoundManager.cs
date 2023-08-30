@@ -22,7 +22,6 @@ public class SoundManager
                 _audioSource[i] = go.AddComponent<AudioSource>();
                 go.transform.parent = root.transform;
             }
-
             _audioSource[(int)Define.Sound.Bgm].loop = true;
         }
     }
@@ -32,30 +31,28 @@ public class SoundManager
         if (type == Define.Sound.Bgm)
         {
             AudioClip audioClip = Managers.Instance.Resource.Load<AudioClip>($"Sounds/PlayerSound/{path}");
-            AudioSource audioSource = _audioSource[(int)Define.Sound.Bgm];
 
-            if (audioSource.isPlaying)
-                audioSource.Stop();
+            if (_audioSource[(int)Define.Sound.Bgm].isPlaying)
+                _audioSource[(int)Define.Sound.Bgm].Stop();
 
-            audioSource.clip = audioClip;
-            audioSource.Play();
+            _audioSource[(int)Define.Sound.Bgm].clip = audioClip;
+            _audioSource[(int)Define.Sound.Bgm].Play();
         }
         else
         {
-            AudioSource audioSource = _audioSource[(int)Define.Sound.Effect];
             AudioClip audioClip = null;
 
             if (_audioClips.TryGetValue(path, out AudioClip clip))
             {
-                audioSource.clip = clip;
+                _audioSource[(int)Define.Sound.Effect].clip = clip;
             }
             else
             {
                 audioClip = Managers.Instance.Resource.Load<AudioClip>($"Sounds/PlayerSound/{path}");
                 _audioClips.Add(path, audioClip);
-                audioSource.clip = audioClip;
+                _audioSource[(int)Define.Sound.Effect].clip = audioClip;
             }
-            audioSource.PlayOneShot(audioClip);
+            _audioSource[(int)Define.Sound.Effect].PlayOneShot(audioClip);
         }
     }
 

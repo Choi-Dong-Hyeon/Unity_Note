@@ -16,5 +16,7 @@ public class SceneManagerEx
     {
         CurrentScene.Clear();
     }
-
 }
+
+
+
