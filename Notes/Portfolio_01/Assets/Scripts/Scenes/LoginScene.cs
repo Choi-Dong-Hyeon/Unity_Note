@@ -1,4 +1,6 @@
 
+using System.Collections.Generic;
+
 public class LoginScene : BaseScene
 {
 
@@ -6,7 +8,7 @@ public class LoginScene : BaseScene
     {
         base.Init();
         _scene = Define.Scene.LoginScene;
-        Managers.Instance.Data.Init();
+        StatData s = Managers.Instance.Data.LoadJson<StatData, int, Stat>("StatData");
     }
 
     public override void Clear()

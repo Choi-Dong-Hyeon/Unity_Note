@@ -6,12 +6,14 @@ public class PlayerController : BaseController
     Vector3 _moveDir;
     RaycastHit _hit;
 
+    PlayerStat _playerStat;
+
     protected override void Init()
     {
         base.Init();
         Managers.Instance.Input.OnMouseAction += OnMouseEvent;
+        _playerStat = GetComponent<PlayerStat>();
 
-       
     }
 
     protected override void IdleState()
@@ -29,7 +31,7 @@ public class PlayerController : BaseController
 
         if (_moveDir.magnitude > 0.3f)
         {
-            transform.position += _moveDir.normalized * Time.deltaTime * 2f;
+            transform.position += _moveDir.normalized * Time.deltaTime * _playerStat.MoveSpeed;
         }
         else _state = Define.State.Idle;
 
