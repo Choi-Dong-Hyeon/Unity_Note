@@ -16,17 +16,17 @@ public class Stat
 [Serializable]
 public class StatData : ILoader<int, Stat>
 {
-    public List<Stat> stats = new List<Stat>();
+    public List<Stat> playerStats = new List<Stat>();
 
     public Dictionary<int, Stat> MakeDictionary()
     {
-        Dictionary<int, Stat> dictionary = new Dictionary<int, Stat>();
+        Dictionary<int, Stat> playerDictionary = new Dictionary<int, Stat>();
 
-        foreach (Stat stat in stats)
+        foreach (Stat stat in playerStats)
         {
-            dictionary.Add(stat.level, stat);
+            playerDictionary.Add(stat.level, stat);
         }
-        return dictionary;
+        return playerDictionary;
     }
 }
 
@@ -46,17 +46,17 @@ public class MonstersStat
 [Serializable]
 public class MonsterStatData : ILoader<int, MonstersStat>
 {
-    public List<MonstersStat> stats = new List<MonstersStat>();
+    public List<MonstersStat> monsterStats = new List<MonstersStat>();
+
 
     public Dictionary<int, MonstersStat> MakeDictionary()
     {
-        Dictionary<int, MonstersStat> dictionary = new Dictionary<int, MonstersStat>();
-
-        foreach (MonstersStat stat in stats)
+        Dictionary<int, MonstersStat> monsterDictionary = new Dictionary<int, MonstersStat>();
+        foreach (MonstersStat stat in monsterStats)
         {
-            dictionary.Add(stat.id, stat);
+            monsterDictionary.Add(stat.id, stat);
         }
-        return dictionary;
+        return monsterDictionary;
     }
 }
 
