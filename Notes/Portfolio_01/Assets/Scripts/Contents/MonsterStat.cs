@@ -9,7 +9,7 @@ public class MonsterStat : BaseStat
     protected override void Init()
     {
         base.Init();
-        MonsterStatData data = Managers.Instance.Data.LoadJson<MonsterStatData, int, MonstersStat>("StatData_Monster");
+   //     MonsterStatData data = Managers.Instance.Data.LoadJson<MonsterStatData, int, MonstersStat>("StatData_Monster");
     }
 
 

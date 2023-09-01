@@ -35,6 +35,7 @@ public class Managers : MonoBehaviour
             }
             instance = go.GetComponent<Managers>();
             DontDestroyOnLoad(go);
+            instance.data.Init();
             instance.sound.Init();
         }
     }
