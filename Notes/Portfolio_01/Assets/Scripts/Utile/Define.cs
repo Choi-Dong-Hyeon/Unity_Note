@@ -18,10 +18,9 @@ public class Define
     public enum Layer
     {
         Ground = 6,
+        Wall,
         Block,
         Monster,
-        Item,
-        Npc,
     }
 
     public enum MouseEvent

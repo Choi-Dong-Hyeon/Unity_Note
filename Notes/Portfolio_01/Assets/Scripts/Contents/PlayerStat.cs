@@ -44,7 +44,6 @@ public class PlayerStat : BaseStat
 
         Dictionary<int, Stat> playerDic = Managers.Instance.Data.playerStatDictionary;
         Dictionary<int, MonstersStat> monsterDic = Managers.Instance.Data.monsterStatDictionary;
-       
     }
 
 

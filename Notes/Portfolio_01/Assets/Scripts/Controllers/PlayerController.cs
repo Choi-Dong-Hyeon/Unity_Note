@@ -13,7 +13,6 @@ public class PlayerController : BaseController
         base.Init();
         Managers.Instance.Input.OnMouseAction += OnMouseEvent;
         _playerStat = GetComponent<PlayerStat>();
-
     }
 
     protected override void IdleState()
@@ -31,18 +30,29 @@ public class PlayerController : BaseController
 
         if (_moveDir.magnitude > 0.3f)
         {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(_moveDir), 20f);
             transform.position += _moveDir.normalized * Time.deltaTime * _playerStat.MoveSpeed;
         }
         else _state = Define.State.Idle;
-
-
-
 
     }
 
     protected override void AttackState()
     {
-        base.AttackState();
+        _moveDir = _hitPoint - transform.position;
+
+        if (_moveDir.magnitude > 2.3f)
+        {
+            base.RunState();
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(_moveDir), 20f);
+            transform.position += _moveDir.normalized * Time.deltaTime * _playerStat.MoveSpeed;
+        }
+        else
+        {
+            base.AttackState();
+            Debug.Log("공격모션");
+
+        }
     }
     protected override void DieState()
     {
@@ -51,20 +61,25 @@ public class PlayerController : BaseController
 
 
 
-
-
-
-
+    LayerMask mask = 1 << (int)Define.Layer.Ground | 1 << (int)Define.Layer.Monster;
 
     void OnMouseEvent()
     {
         Vector3 cam = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
         Vector3 camDir = cam - Camera.main.transform.position;
 
-        if (Physics.Raycast(Camera.main.transform.position, camDir, out _hit, 100f, 1 << (int)Define.Layer.Ground))
+        if (Physics.Raycast(Camera.main.transform.position, camDir, out _hit, 100f, mask))
         {
             _hitPoint = _hit.point;
-            _state = Define.State.Run;
+
+            if (_hit.collider.gameObject.layer == (int)Define.Layer.Ground)
+            {
+                _state = Define.State.Run;
+            }
+            if (_hit.collider.gameObject.layer == (int)Define.Layer.Monster)
+            {
+                _state = Define.State.Attack;
+            }
 
         }
     }
