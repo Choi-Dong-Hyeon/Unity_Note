@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterStat : BaseStat
@@ -9,9 +10,20 @@ public class MonsterStat : BaseStat
     protected override void Init()
     {
         base.Init();
-   //     MonsterStatData data = Managers.Instance.Data.LoadJson<MonsterStatData, int, MonstersStat>("StatData_Monster");
+        ID = 1;
+        SetStat(ID);
     }
 
+    public void SetStat(int id)
+    {
+        Dictionary<int, MonstersStat> monsterDic = Managers.Instance.Data.monsterStatDictionary;
+
+        ID = monsterDic[id].id;
+        HP = monsterDic[id].hp;
+        Attack = monsterDic[id].attack;
+        MoveSpeed = monsterDic[id].speed;
+         
+    }
 
 
 }

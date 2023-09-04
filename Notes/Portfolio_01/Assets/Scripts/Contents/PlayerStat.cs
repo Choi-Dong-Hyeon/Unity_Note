@@ -13,50 +13,41 @@ public class PlayerStat : BaseStat
         set
         {
             _exp = value;
+
             int leve = Level;
             while (true)
             {
-                Debug.Log("asd");
                 if (Managers.Instance.Data.playerStatDictionary.TryGetValue(leve + 1, out Stat stat) == false)
                     break;
-
                 if (_exp < stat.totalExp)
                     break;
-
                 leve++;
             }
             if (leve != Level)
             {
+                //·¹º§¾÷
                 Level = leve;
                 SetStat(Level);
             }
-
         }
     }
-
-   
 
 
     protected override void Init()
     {
         Level = 1;
         SetStat(Level);
-
-        Dictionary<int, Stat> playerDic = Managers.Instance.Data.playerStatDictionary;
-        Dictionary<int, MonstersStat> monsterDic = Managers.Instance.Data.monsterStatDictionary;
     }
 
-
-
-
-    public void SetStat(int level)
+    void SetStat(int level)
     {
-        StatData data = Managers.Instance.Data.LoadJson<StatData, int, Stat>("StatData_Player");
+        Dictionary<int, Stat> playerDic = Managers.Instance.Data.playerStatDictionary;
 
-        Level = data.playerStats[level].level;
-        HP = data.playerStats[level].maxhp;
-        Attack = data.playerStats[level].attack;
-        MoveSpeed = data.playerStats[level].speed;
+        Level = playerDic[level].level;
+        HP = playerDic[level].maxhp;
+        Attack = playerDic[level].attack;
+        MoveSpeed = playerDic[level].speed;
+        Exp = playerDic[level].totalExp;
     }
 
 }

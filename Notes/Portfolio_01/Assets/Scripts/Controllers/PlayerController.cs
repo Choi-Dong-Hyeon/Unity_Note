@@ -61,14 +61,14 @@ public class PlayerController : BaseController
 
 
 
-    LayerMask mask = 1 << (int)Define.Layer.Ground | 1 << (int)Define.Layer.Monster;
+    LayerMask _mask = 1 << (int)Define.Layer.Ground | 1 << (int)Define.Layer.Monster;
 
     void OnMouseEvent()
     {
         Vector3 cam = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
         Vector3 camDir = cam - Camera.main.transform.position;
 
-        if (Physics.Raycast(Camera.main.transform.position, camDir, out _hit, 100f, mask))
+        if (Physics.Raycast(Camera.main.transform.position, camDir, out _hit, 100f, _mask))
         {
             _hitPoint = _hit.point;
 
