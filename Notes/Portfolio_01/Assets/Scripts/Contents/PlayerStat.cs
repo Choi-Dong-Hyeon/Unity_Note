@@ -45,6 +45,7 @@ public class PlayerStat : BaseStat
 
         Level = playerDic[level].level;
         HP = playerDic[level].maxhp;
+        MaxHp = playerDic[level].maxhp;
         Attack = playerDic[level].attack;
         MoveSpeed = playerDic[level].speed;
         Exp = playerDic[level].totalExp;

@@ -12,6 +12,7 @@ public class BaseController : MonoBehaviour
 
     void Update()
     {
+
         switch (_state)
         {
             case Define.State.Idle:
@@ -30,7 +31,7 @@ public class BaseController : MonoBehaviour
     }
 
     protected virtual void Init() { _anim = GetComponent<Animator>(); }
-    protected virtual void IdleState() { _anim.Play("Idle"); }
+    protected virtual void IdleState() { _anim.CrossFade("Idle", 0.1f, 0); }
     protected virtual void RunState() { _anim.Play("Run"); }
     protected virtual void AttackState() { _anim.Play("Attack"); }
     protected virtual void DieState() { _anim.Play("Die"); }

@@ -6,21 +6,24 @@ public class PlayerController : BaseController
     Vector3 _moveDir;
     RaycastHit _hit;
 
-    PlayerStat _playerStat;
+    PlayerStat _playerStat; 
+    GameObject _monsterTarget;
+
 
     protected override void Init()
     {
         base.Init();
+
         Managers.Instance.Input.OnMouseAction += OnMouseEvent;
         _playerStat = GetComponent<PlayerStat>();
+        Managers.Instance.UI.ShowWorldSpaceUI<UI_HPBar>(gameObject.transform, "UI_HPBar");
     }
+
 
     protected override void IdleState()
     {
         base.IdleState();
     }
-
-
 
 
     protected override void RunState()
@@ -54,15 +57,19 @@ public class PlayerController : BaseController
 
         }
     }
+
     protected override void DieState()
     {
         base.DieState();
     }
 
-
+    void OnHitEvent()
+    {
+        Debug.Log("공격이벤트발동");
+    }
 
     LayerMask _mask = 1 << (int)Define.Layer.Ground | 1 << (int)Define.Layer.Monster;
-
+   
     void OnMouseEvent()
     {
         Vector3 cam = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
@@ -78,6 +85,7 @@ public class PlayerController : BaseController
             }
             if (_hit.collider.gameObject.layer == (int)Define.Layer.Monster)
             {
+                _monsterTarget = _hit.collider.gameObject;
                 _state = Define.State.Attack;
             }
 

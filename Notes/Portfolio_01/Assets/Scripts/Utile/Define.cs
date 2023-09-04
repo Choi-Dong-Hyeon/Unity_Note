@@ -48,4 +48,10 @@ public class Define
         Equipment,
     }
 
+    public enum CursorType
+    {
+        Base,
+        Attack,
+    }
+
 }

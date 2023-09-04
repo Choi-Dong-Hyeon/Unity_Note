@@ -31,4 +31,11 @@ public class UI_Base : MonoBehaviour
         return objects[idx] as T;
     }
 
+    private void Awake()
+    {
+        Init();
+    }
+    protected virtual void Init() { }
+
+
 }

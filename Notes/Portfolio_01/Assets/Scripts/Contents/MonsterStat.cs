@@ -10,8 +10,9 @@ public class MonsterStat : BaseStat
     protected override void Init()
     {
         base.Init();
-        ID = 1;
-        SetStat(ID);
+        if (ID != 0)
+            SetStat(ID);
+        Managers.Instance.UI.ShowWorldSpaceUI<UI_HPBar>(gameObject.transform, "UI_HPBar");
     }
 
     public void SetStat(int id)
@@ -19,10 +20,12 @@ public class MonsterStat : BaseStat
         Dictionary<int, MonstersStat> monsterDic = Managers.Instance.Data.monsterStatDictionary;
 
         ID = monsterDic[id].id;
+        Level = monsterDic[id].id;
         HP = monsterDic[id].hp;
+        MaxHp = monsterDic[id].hp;
         Attack = monsterDic[id].attack;
         MoveSpeed = monsterDic[id].speed;
-         
+
     }
 
 

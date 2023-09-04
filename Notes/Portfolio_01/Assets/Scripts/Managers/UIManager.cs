@@ -21,7 +21,7 @@ public class UIManager
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
     }
 
-    Stack<UI_Popup> stack = new Stack<UI_Popup>();
+    Stack<UI_Base> stack = new Stack<UI_Base>();
 
     public T ShowPopupUI<T>(string name = null) where T : UI_Popup
     {
@@ -63,10 +63,28 @@ public class UIManager
         return scene;
     }
 
+    public T ShowWorldSpaceUI<T>(Transform parent=null, string name = null) where T : UI_Base
+    {
+        if (string.IsNullOrEmpty(name))
+            name = typeof(T).Name;
+
+        GameObject go = Managers.Instance.Resource.Instantiate<T>($"UI/WorldSpace/{name}", parent).gameObject;
+        T popup = go.GetComponent<T>();
+
+        Canvas canvas = go.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.WorldSpace;
+        canvas.worldCamera = Camera.main;
+
+        if (popup == null)
+            popup = go.AddComponent<T>();
+     
+        return popup;
+    }
+
     public void ClosePopupUI()
     {
         if (stack.Count == 0) return;
-        UI_Popup popup = stack.Pop();
+        UI_Base popup = stack.Pop();
         Managers.Instance.Resource.Destroy(popup.gameObject);
         _order--;
     }

@@ -6,6 +6,13 @@ public class GameScene : BaseScene
     {
         base.Init();
         _scene = Define.Scene.GameScene;
+
+        CursorController cursor = GetComponent<CursorController>();
+        if (cursor == null)
+        {
+            gameObject.AddComponent<CursorController>();
+        }
+
     }
 
     public override void Clear()
