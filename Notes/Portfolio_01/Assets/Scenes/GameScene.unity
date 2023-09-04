@@ -5162,6 +5162,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4701186353262612721, guid: d3a9ad121e868d44cabc9f0af89cc670, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4701186353262612722, guid: d3a9ad121e868d44cabc9f0af89cc670, type: 3}
       propertyPath: m_Name
       value: Monster_Bear
@@ -5172,7 +5176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4701186353262612735, guid: d3a9ad121e868d44cabc9f0af89cc670, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.882
+      value: -7.84
       objectReference: {fileID: 0}
     - target: {fileID: 4701186353262612735, guid: d3a9ad121e868d44cabc9f0af89cc670, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13556,6 +13560,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1669479229098218675, guid: 06790a0bec40b51479bc364c8ec7f201, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669479229098218675, guid: 06790a0bec40b51479bc364c8ec7f201, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1669479229098379411, guid: 06790a0bec40b51479bc364c8ec7f201, type: 3}

@@ -4,7 +4,7 @@ public class BaseController : MonoBehaviour
 {
     protected Animator _anim;
     protected Define.State _state;
-
+    protected GameObject _target;
     void Awake()
     {
         Init();
