@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 
 #region#Stat
-
 [Serializable]
 public class Stat
 {
@@ -29,11 +28,9 @@ public class StatData : ILoader<int, Stat>
         return playerDictionary;
     }
 }
-
 #endregion
 
 #region#MonsterStat
-
 [Serializable]
 public class MonstersStat
 {
@@ -41,6 +38,7 @@ public class MonstersStat
     public int hp;
     public int attack;
     public float speed;
+    public int monExp;
 }
 
 [Serializable]
@@ -59,6 +57,4 @@ public class MonsterStatData : ILoader<int, MonstersStat>
         return monsterDictionary;
     }
 }
-
-
 #endregion

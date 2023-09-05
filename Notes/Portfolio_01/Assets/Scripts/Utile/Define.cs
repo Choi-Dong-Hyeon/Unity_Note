@@ -32,6 +32,7 @@ public class Define
     public enum CameraMode
     {
         Normal,
+        QuaterView,
     }
 
     public enum Scene
@@ -52,6 +53,13 @@ public class Define
     {
         Base,
         Attack,
+    }
+
+    public enum WorldObjects
+    {
+        UnKnown,
+        Player,
+        Monster,
     }
 
 }

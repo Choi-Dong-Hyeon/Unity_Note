@@ -4,30 +4,35 @@
       "id": "1",
       "hp": "50",
       "attack": "3",
+      "monExp":  "1",
       "speed": "2"
     },
     {
       "id": "2",
       "hp": "70",
       "attack": "5",
+      "monExp": "2",
       "speed": "2"
     },
     {
       "id": "3",
       "hp": "90",
       "attack": "7",
+      "monExp": "3",
       "speed": "2"
     },
     {
       "id": "4",
       "hp": "110",
       "attack": "9",
+      "monExp": "4",
       "speed": "2"
     },
     {
       "id": "5",
       "hp": "150",
       "attack": "11",
+      "monExp": "5",
       "speed": "2"
     }
   ]

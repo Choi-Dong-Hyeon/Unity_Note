@@ -5,6 +5,13 @@ public class Managers : MonoBehaviour
     static Managers instance;
     public static Managers Instance { get { Init(); return instance; } }
 
+    #region#Contents
+    GameManager game = new GameManager();
+    public GameManager Game { get { return Instance.game; } }
+    #endregion
+
+
+    #region#Core
     InputManager input = new InputManager();
     public InputManager Input { get { return Instance.input; } }
 
@@ -22,6 +29,7 @@ public class Managers : MonoBehaviour
 
     DataManager data = new DataManager();
     public DataManager Data { get { return Instance.data; } }
+    #endregion
 
     static void Init()
     {
@@ -48,14 +56,8 @@ public class Managers : MonoBehaviour
         sound.Clear();
     }
 
-    private void Start()
-    {
-        Init();
-    }
-
     void Update()
     {
         input.UpdateMouse();
     }
-
 }

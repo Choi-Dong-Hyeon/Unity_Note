@@ -4,13 +4,14 @@ public class MonsterController : BaseController
 {
     [SerializeField] int _scanRange = 10;
     [SerializeField] float _attackRange = 2f;
-    Vector3 dir;
     BaseStat _monsterStat;
-    GameObject player;
+    GameObject _player;
+    Vector3 _dir;
 
     protected override void Init()
     {
         base.Init();
+        _worldObject = Define.WorldObjects.Monster;
         _monsterStat = GetComponent<BaseStat>();
     }
 
@@ -18,16 +19,15 @@ public class MonsterController : BaseController
     {
         base.IdleState();
 
-        player = GameObject.FindGameObjectWithTag("Player");
-        if (player == null) return;
+        _player = Managers.Instance.Game._players[(int)Define.WorldObjects.Player];
+        if (_player == null) return;
 
-        dir = player.transform.position - transform.position;
-        if (_scanRange >= dir.magnitude)
+        _dir = _player.transform.position - transform.position;
+        if (_scanRange >= _dir.magnitude)
         {
-            _target = player;
+            _target = _player;
             _state = Define.State.Run;
         }
-
     }
 
     protected override void RunState()
@@ -35,14 +35,14 @@ public class MonsterController : BaseController
         base.RunState();
         Debug.Log("Run");
 
-        dir = player.transform.position - transform.position;
-        if (dir.magnitude <= _attackRange)
+        _dir = _player.transform.position - transform.position;
+        if (_dir.magnitude <= _attackRange)
             _state = Define.State.Attack;
 
-        if (dir.magnitude <= _scanRange)
+        if (_dir.magnitude <= _scanRange)
         {
-            transform.position += dir.normalized * Time.deltaTime * _monsterStat.MoveSpeed;
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 30f * Time.deltaTime);
+            transform.position += _dir.normalized * Time.deltaTime * _monsterStat.MoveSpeed;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(_dir), 30f * Time.deltaTime);
         }
         else _state = Define.State.Idle;
 
@@ -51,10 +51,13 @@ public class MonsterController : BaseController
 
     protected override void AttackState()
     {
+        if (_target == null) _state = Define.State.Idle;
+
         base.AttackState();
         Debug.Log("Attack");
-        dir = player.transform.position - transform.position;
-        if (dir.magnitude > _attackRange)
+
+        _dir = _player.transform.position - transform.position;
+        if (_dir.magnitude > _attackRange)
             _state = Define.State.Run;
     }
 
@@ -63,19 +66,21 @@ public class MonsterController : BaseController
         base.DieState();
     }
 
+    BaseStat targetStat;
 
     public void MonsterOnHitEvent()
     {
-        if (player == null) return;
+        if (_target == null) return;
+  
+        targetStat = _player.GetComponent<BaseStat>();
 
-        BaseStat targetStat = player.GetComponent<BaseStat>();
-        if (targetStat.HP > 0)
+        if (targetStat.HP <= 0)
         {
-            targetStat.HP -= _monsterStat.Attack;
-        }
-        else
-        {
+            Managers.Instance.Game.Despawn(_target.gameObject);
             _state = Define.State.Idle;
         }
+        targetStat.OnAttack(_monsterStat);
+
+
     }
 }

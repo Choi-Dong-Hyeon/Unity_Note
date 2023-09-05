@@ -32,7 +32,6 @@ public class PlayerStat : BaseStat
         }
     }
 
-
     protected override void Init()
     {
         Level = 1;

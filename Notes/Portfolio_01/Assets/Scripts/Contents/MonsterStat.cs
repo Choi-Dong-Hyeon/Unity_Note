@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterStat : BaseStat
-{
+{ 
     [SerializeField] int _id;
-    public int ID { get { return _id; } set { _id = value; } }
 
+
+    public int ID { get { return _id; } set { _id = value; } }
 
     protected override void Init()
     {
@@ -15,7 +16,9 @@ public class MonsterStat : BaseStat
         Managers.Instance.UI.ShowWorldSpaceUI<UI_HPBar>(gameObject.transform, "UI_HPBar");
     }
 
-    public void SetStat(int id)
+
+
+    void SetStat(int id)
     {
         Dictionary<int, MonstersStat> monsterDic = Managers.Instance.Data.monsterStatDictionary;
 
@@ -25,6 +28,7 @@ public class MonsterStat : BaseStat
         MaxHp = monsterDic[id].hp;
         Attack = monsterDic[id].attack;
         MoveSpeed = monsterDic[id].speed;
+        GetExp = monsterDic[id].monExp;
 
     }
 

@@ -8,22 +8,19 @@ public class PlayerController : BaseController
 
     PlayerStat _playerStat;
 
-
     protected override void Init()
     {
         base.Init();
-
         Managers.Instance.Input.OnMouseAction += OnMouseEvent;
-        _playerStat = GetComponent<PlayerStat>();
         Managers.Instance.UI.ShowWorldSpaceUI<UI_HPBar>(gameObject.transform, "UI_HPBar");
+        _playerStat = GetComponent<PlayerStat>();
+        _worldObject = Define.WorldObjects.Player;
     }
-
 
     protected override void IdleState()
     {
         base.IdleState();
     }
-
 
     protected override void RunState()
     {
@@ -51,8 +48,8 @@ public class PlayerController : BaseController
         }
         else
         {
+            if (_target == null) _state = Define.State.Idle;
             base.AttackState();
-            Debug.Log("공격모션");
 
         }
     }
@@ -62,9 +59,16 @@ public class PlayerController : BaseController
         base.DieState();
     }
 
+    BaseStat _targetStat;
+
     public void OnHitEvent()
     {
         Debug.Log("공격이벤트발동");
+        Camera.main.GetComponent<CameraController>().cameraMode = Define.CameraMode.QuaterView;
+        if (_target == null) return;
+
+        _targetStat = _target.GetComponent<BaseStat>();
+        _targetStat.OnAttack(_playerStat);
     }
 
     LayerMask _mask = 1 << (int)Define.Layer.Ground | 1 << (int)Define.Layer.Monster;
