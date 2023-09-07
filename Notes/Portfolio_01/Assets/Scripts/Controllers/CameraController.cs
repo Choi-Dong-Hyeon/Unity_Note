@@ -28,6 +28,7 @@ public class CameraController : MonoBehaviour
 
     void NormalMode()
     {
+        if (_player == null) return;
         transform.position = _player.transform.position + _normalDist;
     }
 

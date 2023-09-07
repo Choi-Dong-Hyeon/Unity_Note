@@ -43,10 +43,13 @@ public class BaseStat : MonoBehaviour
         if (type == Define.WorldObjects.Player)
         {
             PlayerStat playerStat = baseStat as PlayerStat;
-       
+
             playerStat.Exp += GetExp;
         }
-        Managers.Instance.Game.Despawn(gameObject);
+        else if (type == Define.WorldObjects.Monster)
+        {
+            Managers.Instance.Game.Despawn(gameObject);
+        }
     }
 }
 

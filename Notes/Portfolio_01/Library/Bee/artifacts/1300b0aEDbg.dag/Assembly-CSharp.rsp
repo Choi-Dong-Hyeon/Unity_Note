@@ -350,6 +350,7 @@
 "Assets/Scripts/Contents/BaseStat.cs"
 "Assets/Scripts/Contents/MonsterStat.cs"
 "Assets/Scripts/Contents/PlayerStat.cs"
+"Assets/Scripts/Contents/SpawningPool.cs"
 "Assets/Scripts/Controllers/BaseController.cs"
 "Assets/Scripts/Controllers/CameraController.cs"
 "Assets/Scripts/Controllers/CursorController.cs"

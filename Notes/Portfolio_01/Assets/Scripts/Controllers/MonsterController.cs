@@ -19,7 +19,7 @@ public class MonsterController : BaseController
     {
         base.IdleState();
 
-        _player = Managers.Instance.Game._players[(int)Define.WorldObjects.Player];
+        _player = Managers.Instance.Game._players;
         if (_player == null) return;
 
         _dir = _player.transform.position - transform.position;
@@ -51,14 +51,18 @@ public class MonsterController : BaseController
 
     protected override void AttackState()
     {
-        if (_target == null) _state = Define.State.Idle;
+        if (_target != null)
+        {
 
-        base.AttackState();
-        Debug.Log("Attack");
+            base.AttackState();
+            Debug.Log("Attack");
 
-        _dir = _player.transform.position - transform.position;
-        if (_dir.magnitude > _attackRange)
-            _state = Define.State.Run;
+            _dir = _player.transform.position - transform.position;
+            if (_dir.magnitude > _attackRange)
+                _state = Define.State.Run;
+        }
+        else
+            _state = Define.State.Idle;
     }
 
     protected override void DieState()
@@ -71,7 +75,7 @@ public class MonsterController : BaseController
     public void MonsterOnHitEvent()
     {
         if (_target == null) return;
-  
+
         targetStat = _player.GetComponent<BaseStat>();
 
         if (targetStat.HP <= 0)

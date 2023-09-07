@@ -1,24 +1,27 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager
 {
-    public Dictionary<int, GameObject> _players { get; private set; } = new();
-    public Dictionary<int, GameObject> _monsters { get; private set; } = new Dictionary<int, GameObject>();
+    public GameObject _players;
+    public HashSet<GameObject> _monsters = new HashSet<GameObject>();
+
+    public Action<int> OnSpawnEvent;
 
     public GameObject Spawn(Define.WorldObjects type, string path, Transform parent = null)
     {
-        GameObject go = null;
-
+        GameObject go = Managers.Instance.Resource.Instantiate<GameObject>($"{path}", parent);
+        
         switch (type)
         {
             case Define.WorldObjects.Monster:
-                go = Managers.Instance.Resource.Instantiate<GameObject>($"Monsters/{path}", parent);
-                _monsters.Add((int)Define.WorldObjects.Monster, go);
+                _monsters.Add(go);
+                if (OnSpawnEvent != null)
+                    OnSpawnEvent.Invoke(1);
                 break;
             case Define.WorldObjects.Player:
-                go = Managers.Instance.Resource.Instantiate<GameObject>($"Players/{path}", parent);
-                _players.Add((int)Define.WorldObjects.Player, go);
+                _players = go;
                 break;
         }
         return go;
@@ -26,23 +29,28 @@ public class GameManager
 
     public void Despawn(GameObject go)
     {
-        Define.WorldObjects type = go.GetComponent<BaseController>()._worldObject;
+        Define.WorldObjects type = GetWorldObjectType(go);
 
         switch (type)
         {
             case Define.WorldObjects.Monster:
-                if (_monsters.ContainsKey((int)type))
+                //if (_monsters.Contains(go))
                 {
-                    _monsters.Remove((int)Define.WorldObjects.Monster);
+                 //   _monsters.Remove(go);
+                    if (OnSpawnEvent != null)
+                    {
+                        Debug.Log("-1");
+                        OnSpawnEvent.Invoke(-1);
+                    }
                 }
                 break;
             case Define.WorldObjects.Player:
-                if (_players[(int)type] == go)
+                if (_players == go)
                 {
-                    _players[(int)type] = null;
+                    _players = null;
                 }
                 break;
-        }    
+        }
         Managers.Instance.Resource.Destroy(go);
     }
 

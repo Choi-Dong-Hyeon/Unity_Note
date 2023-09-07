@@ -19,14 +19,15 @@ public class ResourceManager
 
         go.name = original.name;
 
-        if (_dictionary.ContainsKey(go.name))
-        {
-            return _dictionary[go.name] as T;
-        }
-        else
-        {
-            _dictionary.Add(go.name, go);
-        }
+        //if (_dictionary.ContainsKey(go.name))
+        //{
+        //    return _dictionary[go.name] as T;
+        //}
+        //else
+        //{
+        //    _dictionary.Add(go.name, go);
+        //}
+        // 객체생성시 하나로 관리되어 좌표설정시 모든 객체의 위치가 변경되는 문제점 이 있음
 
         return go;
     }

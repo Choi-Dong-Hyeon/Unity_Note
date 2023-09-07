@@ -26,6 +26,7 @@ public class PlayerController : BaseController
     {
         base.RunState();
         _moveDir = _hitPoint - transform.position;
+        _moveDir.y = 0;
 
         if (_moveDir.magnitude > 0.3f)
         {
@@ -39,7 +40,7 @@ public class PlayerController : BaseController
     protected override void AttackState()
     {
         _moveDir = _hitPoint - transform.position;
-
+        _moveDir.y = 0;
         if (_moveDir.magnitude > 2.3f)
         {
             base.RunState();
@@ -64,10 +65,15 @@ public class PlayerController : BaseController
     public void OnHitEvent()
     {
         Debug.Log("공격이벤트발동");
-        Camera.main.GetComponent<CameraController>().cameraMode = Define.CameraMode.QuaterView;
         if (_target == null) return;
+        Camera.main.GetComponent<CameraController>().cameraMode = Define.CameraMode.QuaterView;
 
         _targetStat = _target.GetComponent<BaseStat>();
+        if (_targetStat.HP <= 0)
+        {
+            Managers.Instance.Game.Despawn(_target.gameObject);
+            _state = Define.State.Idle;
+        }
         _targetStat.OnAttack(_playerStat);
     }
 
