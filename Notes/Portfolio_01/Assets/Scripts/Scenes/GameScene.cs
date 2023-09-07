@@ -18,7 +18,6 @@ public class GameScene : BaseScene
 
         //Managers.Instance.Game.Spawn(Define.WorldObjects.Monster, "Monster_Bear");
         //   GameObject go = Managers.Instance.Game.Spawn(Define.WorldObjects.Monster, "Monster_Bear");
-        //  go.transform.position = new Vector3(10, 0, -7);
         //Managers.Instance.Game.Spawn(Define.WorldObjects.Monster, "Monster_Bear");
 
         //   Managers.Instance.Resource.Instantiate<GameObject>("Town");

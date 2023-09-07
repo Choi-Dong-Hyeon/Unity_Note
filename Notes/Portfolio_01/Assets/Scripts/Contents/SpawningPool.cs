@@ -1,15 +1,13 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class SpawningPool : MonoBehaviour
 {
     [SerializeField] int _monsterCount = 0;
     [SerializeField] int _keepMonsterCount = 0;
     [SerializeField] float _spawnRadius = 15f;
-    [SerializeField] float _spawnTime = 5;
+    [SerializeField] float _spawnTime = 10;
     [SerializeField] Vector3 _spawnPos;
-    [SerializeField] int _reserveCount = 0;
 
     public void AddMonsterCount(int value)
     {
@@ -28,7 +26,7 @@ public class SpawningPool : MonoBehaviour
 
     void Update()
     {
-        while (_reserveCount + _monsterCount < _keepMonsterCount)
+        while (_monsterCount < _keepMonsterCount)
         {
             StartCoroutine(ReserveSpawn());
         }
@@ -36,9 +34,9 @@ public class SpawningPool : MonoBehaviour
 
     IEnumerator ReserveSpawn()
     {
-        _reserveCount++;
+        _monsterCount++;
         yield return new WaitForSeconds(Random.Range(0, _spawnTime));
-        _reserveCount--;
+        _monsterCount--;
 
         Vector3 ranPos;
 
@@ -48,7 +46,6 @@ public class SpawningPool : MonoBehaviour
 
         GameObject obj = Managers.Instance.Game.Spawn(Define.WorldObjects.Monster, "Monster_Bear");
         if (obj == null) yield break;
-
 
         obj.transform.position = ranPos;
     }

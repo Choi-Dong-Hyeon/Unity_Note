@@ -11,16 +11,18 @@ public class GameManager
 
     public GameObject Spawn(Define.WorldObjects type, string path, Transform parent = null)
     {
-        GameObject go = Managers.Instance.Resource.Instantiate<GameObject>($"{path}", parent);
-        
+        GameObject go = null;
+
         switch (type)
         {
             case Define.WorldObjects.Monster:
+                go = Managers.Instance.Resource.Instantiate<GameObject>($"Monsters/{path}", parent);
                 _monsters.Add(go);
                 if (OnSpawnEvent != null)
                     OnSpawnEvent.Invoke(1);
                 break;
             case Define.WorldObjects.Player:
+                go = Managers.Instance.Resource.Instantiate<GameObject>($"Players/{path}", parent);
                 _players = go;
                 break;
         }
@@ -34,14 +36,11 @@ public class GameManager
         switch (type)
         {
             case Define.WorldObjects.Monster:
-                //if (_monsters.Contains(go))
+                if (_monsters.Contains(go))
                 {
-                 //   _monsters.Remove(go);
+                    _monsters.Remove(go);
                     if (OnSpawnEvent != null)
-                    {
-                        Debug.Log("-1");
                         OnSpawnEvent.Invoke(-1);
-                    }
                 }
                 break;
             case Define.WorldObjects.Player:
