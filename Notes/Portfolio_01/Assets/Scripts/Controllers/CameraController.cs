@@ -9,8 +9,8 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        _normalDist = new Vector3(0, 15, -18);
-        _quaterViewDist = new Vector3(0, 8, -10);
+        _normalDist = new Vector3(0, 15, 12);
+        _quaterViewDist = new Vector3(0, 8, 8);
     }
 
     void LateUpdate()

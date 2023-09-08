@@ -14,7 +14,7 @@ public class ResourceManager
     public T Instantiate<T>(string path, Transform parent = null) where T : Object
     {
         T original = Load<T>($"Prefabs/{path}");
-
+        if (original == null) return null;
         T go = Object.Instantiate<T>(original, parent);
 
         go.name = original.name;

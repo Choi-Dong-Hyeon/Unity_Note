@@ -78,13 +78,6 @@ public class MonsterController : BaseController
 
         targetStat = _player.GetComponent<BaseStat>();
 
-        if (targetStat.HP <= 0)
-        {
-            Managers.Instance.Game.Despawn(_target.gameObject);
-            _state = Define.State.Idle;
-        }
         targetStat.OnAttack(_monsterStat);
-
-
     }
 }

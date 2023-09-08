@@ -46,10 +46,8 @@ public class BaseStat : MonoBehaviour
 
             playerStat.Exp += GetExp;
         }
-        else if (type == Define.WorldObjects.Monster)
-        {
-            Managers.Instance.Game.Despawn(gameObject);
-        }
+        Managers.Instance.Game.Despawn(gameObject);
+
     }
 }
 
