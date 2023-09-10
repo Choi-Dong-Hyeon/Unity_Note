@@ -37,10 +37,10 @@ public class Define
 
     public enum Scene
     {
-        UnKnown,
         LoginScene,
-        LobbyScene,
         GameScene,
+        UnKnown,
+        LobbyScene,
     }
 
     public enum ItemType

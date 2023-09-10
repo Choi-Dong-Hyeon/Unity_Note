@@ -503,7 +503,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.39444166
-        functionName: OnHitEvent
+        functionName: MonsterOnHitEvent
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

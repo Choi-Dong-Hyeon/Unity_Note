@@ -61,7 +61,7 @@ public class UIManager
         return scene;
     }
 
-    public T ShowWorldSpaceUI<T>(Transform parent=null, string name = null) where T : UI_Base
+    public T ShowWorldSpaceUI<T>(Transform parent = null, string name = null) where T : UI_Base
     {
         if (string.IsNullOrEmpty(name))
             name = typeof(T).Name;
@@ -75,7 +75,7 @@ public class UIManager
 
         if (popup == null)
             popup = go.AddComponent<T>();
-     
+
         return popup;
     }
 
@@ -90,6 +90,7 @@ public class UIManager
     public void Clear()
     {
         stack.Clear();
+        _order = 50;
     }
 
 }

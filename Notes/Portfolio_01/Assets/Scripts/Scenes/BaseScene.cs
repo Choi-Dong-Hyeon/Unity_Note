@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class BaseScene : MonoBehaviour
 {
-    protected Define.Scene _scene = Define.Scene.UnKnown;
+   [SerializeField] protected Define.Scene _scene = Define.Scene.UnKnown;
 
 
     private void Awake()

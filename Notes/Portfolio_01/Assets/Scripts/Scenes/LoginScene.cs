@@ -1,5 +1,4 @@
-
-using System.Collections.Generic;
+using UnityEngine;
 
 public class LoginScene : BaseScene
 {
@@ -8,7 +7,8 @@ public class LoginScene : BaseScene
     {
         base.Init();
         _scene = Define.Scene.LoginScene;
-        StatData s = Managers.Instance.Data.LoadJson<StatData, int, Stat>("StatData");
+        Managers.Instance.UI.ShowSceneUI<LoginBG_UI>("LoginBG_UI");
+        Managers.Instance.UI.ShowPopupUI<Login_UI>("Login_UI");
     }
 
     public override void Clear()
