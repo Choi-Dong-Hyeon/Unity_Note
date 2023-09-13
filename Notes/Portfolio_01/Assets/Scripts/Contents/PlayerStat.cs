@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,10 +38,10 @@ public class PlayerStat : BaseStat
         Level = 1;
         SetStat(Level);
     }
-
+    Dictionary<int, Stat> playerDic = Managers.Instance.Data.playerStatDictionary;
     void SetStat(int level)
     {
-        Dictionary<int, Stat> playerDic = Managers.Instance.Data.playerStatDictionary;
+        playerDic = Managers.Instance.Data.playerStatDictionary;
 
         Level = playerDic[level].level;
         HP = playerDic[level].maxhp;
@@ -49,5 +50,17 @@ public class PlayerStat : BaseStat
         MoveSpeed = playerDic[level].speed;
         Exp = playerDic[level].totalExp;
     }
+
+
+    void Update()
+    {
+        if (HP != playerDic[Level].maxhp || Attack != playerDic[Level].attack || Exp != playerDic[Level].totalExp)
+        {
+            Managers.Instance.RealDb.UpdateSetDate(Level, HP, Attack, Exp);
+            Debug.Log("º¯°æ");
+        }
+    }
+
+
 
 }

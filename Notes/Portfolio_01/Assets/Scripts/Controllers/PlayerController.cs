@@ -67,7 +67,6 @@ public class PlayerController : BaseController
         Debug.Log("공격이벤트발동");
         if (_target == null) return;
         Camera.main.GetComponent<CameraController>().cameraMode = Define.CameraMode.QuaterView;
-
         _targetStat = _target.GetComponent<BaseStat>();
         if (_targetStat.HP <= 0)
         {

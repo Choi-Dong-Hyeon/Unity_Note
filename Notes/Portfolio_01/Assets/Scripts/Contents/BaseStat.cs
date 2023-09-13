@@ -47,7 +47,6 @@ public class BaseStat : MonoBehaviour
             playerStat.Exp += GetExp;
         }
         Managers.Instance.Game.Despawn(gameObject);
-
     }
 }
 

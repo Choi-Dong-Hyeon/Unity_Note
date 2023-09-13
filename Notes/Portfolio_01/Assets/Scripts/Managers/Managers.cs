@@ -8,6 +8,12 @@ public class Managers : MonoBehaviour
     #region#Contents
     GameManager game = new GameManager();
     public GameManager Game { get { return Instance.game; } }
+
+    FireBaseRealTimeDBManager realDb = new FireBaseRealTimeDBManager();
+    public FireBaseRealTimeDBManager RealDb { get { return Instance.realDb; } }
+
+    FireBaseAuthManager auth = new FireBaseAuthManager();
+    public FireBaseAuthManager Auth { get { return Instance.auth; } }
     #endregion
 
 
@@ -31,7 +37,7 @@ public class Managers : MonoBehaviour
     public DataManager Data { get { return Instance.data; } }
     #endregion
 
-    static void Init()
+   public static void Init()
     {
         if (instance == null)
         {
@@ -45,6 +51,7 @@ public class Managers : MonoBehaviour
             DontDestroyOnLoad(go);
             instance.data.Init();
             instance.sound.Init();
+            instance.realDb.Init();
         }
     }
 

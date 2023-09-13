@@ -62,4 +62,10 @@ public class Define
         Monster,
     }
 
+    public enum LobbyPlayer
+    {
+        Player1,
+        Player2,
+    }
+
 }

@@ -118,6 +118,12 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Firebase/Plugins/Firebase.Database.dll"
+-r:"Assets/FireBaseServer/Firebase/Plugins/Firebase.App.dll"
+-r:"Assets/FireBaseServer/Firebase/Plugins/Firebase.Auth.dll"
+-r:"Assets/FireBaseServer/Firebase/Plugins/Firebase.Platform.dll"
+-r:"Assets/FireBaseServer/Firebase/Plugins/Firebase.TaskExtension.dll"
+-r:"Assets/FireBaseServer/Firebase/Plugins/Google.MiniJson.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -356,6 +362,8 @@
 "Assets/Scripts/Controllers/MonsterController.cs"
 "Assets/Scripts/Controllers/PlayerController.cs"
 "Assets/Scripts/Data/Data_Contents.cs"
+"Assets/Scripts/Managers/Contents/FireBaseAuthManager.cs"
+"Assets/Scripts/Managers/Contents/FireBaseRealTimeDBManager.cs"
 "Assets/Scripts/Managers/Contents/GameManager.cs"
 "Assets/Scripts/Managers/Core/DataManager.cs"
 "Assets/Scripts/Managers/Core/InputManager.cs"
@@ -366,16 +374,20 @@
 "Assets/Scripts/Managers/Managers.cs"
 "Assets/Scripts/Scenes/BaseScene.cs"
 "Assets/Scripts/Scenes/GameScene.cs"
+"Assets/Scripts/Scenes/LobbyScene.cs"
 "Assets/Scripts/Scenes/LoginScene.cs"
 "Assets/Scripts/UI/Popup/Inventory/Item.cs"
 "Assets/Scripts/UI/Popup/Login/Login_UI.cs"
 "Assets/Scripts/UI/Popup/UI_Popup.cs"
+"Assets/Scripts/UI/Scene/LobbyBG_UI.cs"
 "Assets/Scripts/UI/Scene/LoginBG_UI.cs"
 "Assets/Scripts/UI/Scene/UI_Scene.cs"
 "Assets/Scripts/UI/UI_Base.cs"
 "Assets/Scripts/UI/UI_EventHandler.cs"
 "Assets/Scripts/UI/WorldSpace/UI_HPBar.cs"
 "Assets/Scripts/Utile/Define.cs"
+"Assets/Test/FireBaseRealTimeDatabase.cs"
+"Assets/Test/Test.cs"
 -langversion:9.0
 
 /deterministic

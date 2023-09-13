@@ -63,9 +63,11 @@
     <Compile Include="Assets\Scripts\UI\Popup\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\SceneManagerEx.cs" />
+    <Compile Include="Assets\Scripts\Managers\Contents\FireBaseRealTimeDBManager.cs" />
     <Compile Include="Assets\Scripts\Contents\PlayerStat.cs" />
     <Compile Include="Assets\Scripts\Contents\SpawningPool.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\UI_Scene.cs" />
+    <Compile Include="Assets\Scripts\UI\Scene\LobbyBG_UI.cs" />
     <Compile Include="Assets\Scripts\Contents\MonsterStat.cs" />
     <Compile Include="Assets\Scripts\UI\Popup\UI_Popup.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\LoginBG_UI.cs" />
@@ -78,31 +80,50 @@
     <Compile Include="Assets\Scripts\Managers\Core\UIManager.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Base.cs" />
     <Compile Include="Assets\Scripts\Scenes\GameScene.cs" />
+    <Compile Include="Assets\Scripts\Managers\Contents\FireBaseAuthManager.cs" />
     <Compile Include="Assets\Scripts\Utile\Define.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\ResourceManager.cs" />
+    <Compile Include="Assets\Test\FireBaseRealTimeDatabase.cs" />
     <Compile Include="Assets\Scripts\Managers\Core\InputManager.cs" />
     <Compile Include="Assets\Scripts\Controllers\CursorController.cs" />
     <Compile Include="Assets\Scripts\UI\Popup\Login\Login_UI.cs" />
+    <Compile Include="Assets\Scripts\Scenes\LobbyScene.cs" />
     <Compile Include="Assets\Scripts\Managers\Managers.cs" />
     <Compile Include="Assets\Scripts\UI\WorldSpace\UI_HPBar.cs" />
     <Compile Include="Assets\Scripts\Contents\BaseStat.cs" />
+    <Compile Include="Assets\Test\Test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Resources\Art\Map_Town\Readme.txt" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppDatabase.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\Firebase.App.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\x86_64\FirebaseCppAuth.dll" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\Firebase.TaskExtension.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\Firebase.Auth.dll" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Database.dll" />
+    <None Include="Assets\FireBaseServer\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\iOS\Firebase.Auth.dll" />
     <None Include="Assets\Resources\Sounds\PlayerSound\unity-chan_voice_list.txt" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\x86_64\FirebaseCppApp-11_4_0.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.Database.dll" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\Firebase.Platform.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
     <None Include="Assets\Resources\Art\Cursor\Shader\Particle.shader" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\Google.MiniJson.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Resources\Art\Map_Town\Readme FIRST!.txt" />
-    <None Include="Assets\Resources\Art\Player\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\FireBaseServer\Firebase\Plugins\iOS\Firebase.App.dll" />
+    <None Include="Assets\Resources\Art\Players\Player_01\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -342,11 +363,29 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\FireBaseServer\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets\FireBaseServer\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets\FireBaseServer\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets\FireBaseServer\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets\FireBaseServer\Firebase\Plugins\Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

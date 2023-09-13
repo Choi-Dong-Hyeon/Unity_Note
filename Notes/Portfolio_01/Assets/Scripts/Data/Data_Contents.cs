@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [Serializable]
 public class Stat
 {
-    public int level;
+    public int level = 1;
     public int maxhp;
     public int attack;
     public float speed;

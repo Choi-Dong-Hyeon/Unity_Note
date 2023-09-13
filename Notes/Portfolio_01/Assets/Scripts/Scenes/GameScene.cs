@@ -1,4 +1,6 @@
-
+using Firebase;
+using Firebase.Database;
+using System;
 using UnityEngine;
 
 public class GameScene : BaseScene
@@ -20,10 +22,10 @@ public class GameScene : BaseScene
         // Managers.Instance.Resource.Instantiate<GameObject>("Town");
 
         GameObject go = GameObject.Find("@SpawnPool");
-        
         if (go == null)
+        {
             go = new GameObject { name = "@SpawnPool" };
-
+        }
         SpawningPool pool = go.AddComponent<SpawningPool>();
         pool.KeepMonsterCount(5);
     }
